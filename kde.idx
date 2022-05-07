@@ -1,0 +1,16 @@
+knCustom	kde.html#knCustom	KernelKind.knCustom	
+knBox	kde.html#knBox	KernelKind.knBox	
+knTriangular	kde.html#knTriangular	KernelKind.knTriangular	
+knTrig	kde.html#knTrig	KernelKind.knTrig	
+knEpanechnikov	kde.html#knEpanechnikov	KernelKind.knEpanechnikov	
+knGauss	kde.html#knGauss	KernelKind.knGauss	
+KernelKind	kde.html#KernelKind	kde: KernelKind	
+KernelFunc	kde.html#KernelFunc	kde: KernelFunc	
+makeKernel	kde.html#makeKernel.t,untyped	kde: makeKernel(fn: untyped): untyped	
+boxKernel	kde.html#boxKernel,float,float,float	kde: boxKernel(x`gensym1, x_i`gensym1, bw`gensym1: float): float	
+triangularKernel	kde.html#triangularKernel,float,float,float	kde: triangularKernel(x`gensym2, x_i`gensym2, bw`gensym2: float): float	
+trigonometricKernel	kde.html#trigonometricKernel,float,float,float	kde: trigonometricKernel(x`gensym3, x_i`gensym3, bw`gensym3: float): float	
+epanechnikovKernel	kde.html#epanechnikovKernel,float,float,float	kde: epanechnikovKernel(x`gensym4, x_i`gensym4, bw`gensym4: float): float	
+gaussKernel	kde.html#gaussKernel,float,float,float	kde: gaussKernel(x, x_i, bw: float): float	
+kde	kde.html#kde,Tensor[T: SomeNumber],staticKernelFunc,float,U,float,float,Tensor[T: SomeNumber]	kde: kde[T: SomeNumber; U: int | Tensor[SomeNumber] | openArray[SomeNumber]](\n    t: Tensor[T]; kernel: static KernelFunc; kernelKind = knCustom;\n    adjust: float = 1.0; samples: U = 1000; bw: float = NaN; normalize = false;\n    cutoff: float = NaN; weights: Tensor[T] = newTensor[T](0)): Tensor[float]	
+kde	kde.html#kde,Tensor[T: SomeNumber],U,float,V,float,Tensor[T: SomeNumber]	kde: kde[T: SomeNumber; U: KernelKind | string;\n    V: int | Tensor[SomeNumber] | openArray[SomeNumber]](t: Tensor[T];\n    kernel: U = &quot;gauss&quot;; adjust: float = 1.0; samples: V = 1000;\n    bw: float = NaN; normalize = false; weights: Tensor[T] = newTensor[T](0)): Tensor[\n    float]	

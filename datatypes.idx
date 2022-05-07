@@ -1,0 +1,24 @@
+KnownSupportsCopyMem	datatypes.html#KnownSupportsCopyMem	datatypes: KnownSupportsCopyMem	
+RawImmutableView	datatypes.html#RawImmutableView	datatypes: RawImmutableView	
+RawMutableView	datatypes.html#RawMutableView	datatypes: RawMutableView	
+Metadata	datatypes.html#Metadata	datatypes: Metadata	
+MetadataArray	datatypes.html#MetadataArray	datatypes: MetadataArray	
+Tensor	datatypes.html#Tensor	datatypes: Tensor	
+CpuStorage	datatypes.html#CpuStorage	datatypes: CpuStorage	
+initMetadataArray	datatypes.html#initMetadataArray,int	datatypes: initMetadataArray(len: int): MetadataArray	
+toMetadataArray	datatypes.html#toMetadataArray,varargs[int]	datatypes: toMetadataArray(s: varargs[int]): MetadataArray	
+rank	datatypes.html#rank,Tensor[T]	datatypes: rank[T](t: Tensor[T]): range[0 .. LASER_MAXRANK]	
+size	datatypes.html#size,Tensor[T]	datatypes: size[T](t: Tensor[T]): Natural	
+allocCpuStorage	datatypes.html#allocCpuStorage,CpuStorage[T],int	datatypes: allocCpuStorage[T](storage: var CpuStorage[T]; size: int)	
+cpuStorageFromBuffer	datatypes.html#cpuStorageFromBuffer,CpuStorage[T: KnownSupportsCopyMem],pointer,int	datatypes: cpuStorageFromBuffer[T: KnownSupportsCopyMem](storage: var CpuStorage[T];\n    rawBuffer: pointer; size: int)	
+is_C_contiguous	datatypes.html#is_C_contiguous,Tensor	datatypes: is_C_contiguous(t: Tensor): bool	
+unsafe_raw_buf	datatypes.html#unsafe_raw_buf,Tensor[T: KnownSupportsCopyMem],staticbool	datatypes: unsafe_raw_buf[T: KnownSupportsCopyMem](t: Tensor[T];\n                                        aligned: static bool = true): RawImmutableView[\n    T]	
+unsafe_raw_buf	datatypes.html#unsafe_raw_buf,Tensor[T: KnownSupportsCopyMem],staticbool_2	datatypes: unsafe_raw_buf[T: KnownSupportsCopyMem](t: var Tensor[T];\n                                        aligned: static bool = true): RawMutableView[\n    T]	
+unsafe_raw_offset	datatypes.html#unsafe_raw_offset,Tensor[T: KnownSupportsCopyMem],staticbool	datatypes: unsafe_raw_offset[T: KnownSupportsCopyMem](t: Tensor[T];\n    aligned: static bool = true): RawImmutableView[T]	
+unsafe_raw_offset	datatypes.html#unsafe_raw_offset,Tensor[T: KnownSupportsCopyMem],staticbool_2	datatypes: unsafe_raw_offset[T: KnownSupportsCopyMem](t: var Tensor[T];\n    aligned: static bool = true): RawMutableView[T]	
+unsafe_raw_buf	datatypes.html#unsafe_raw_buf,Tensor[T: not KnownSupportsCopyMem],staticbool	datatypes: unsafe_raw_buf[T: not KnownSupportsCopyMem](t: Tensor[T];\n    aligned: static bool = true): ptr UncheckedArray[T]	
+unsafe_raw_offset	datatypes.html#unsafe_raw_offset,Tensor[T: not KnownSupportsCopyMem],staticbool	datatypes: unsafe_raw_offset[T: not KnownSupportsCopyMem](t: Tensor[T];\n    aligned: static bool = true): ptr UncheckedArray[T]	
+raw_data_unaligned	datatypes.html#raw_data_unaligned.m,untyped	datatypes: raw_data_unaligned(body: untyped): untyped	
+`[]`	datatypes.html#[].t,RawImmutableView[T],int	datatypes: `[]`[T](v: RawImmutableView[T]; idx: int): T	
+`[]`	datatypes.html#[].t,RawMutableView[T],int	datatypes: `[]`[T](v: RawMutableView[T]; idx: int): var T	
+`[]=`	datatypes.html#[]=.t,RawMutableView[T],int,T	datatypes: `[]=`[T](v: RawMutableView[T]; idx: int; val: T)	

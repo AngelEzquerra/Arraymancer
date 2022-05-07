@@ -1,0 +1,1 @@
+whitespaceTokenizer	tokenizers.html#whitespaceTokenizer.i,Tensor[string]	tokenizers: whitespaceTokenizer(input: Tensor[string]): seq[string]	

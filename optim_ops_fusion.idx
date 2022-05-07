@@ -1,0 +1,4 @@
+rewriteTensor_MultiplyAdd	optim_ops_fusion.html#rewriteTensor_MultiplyAdd.t,Tensor[T],Tensor[T],Tensor[T]	optim_ops_fusion: rewriteTensor_MultiplyAdd{\n  `*`(A, B) + C\n}[T](A, B, C: Tensor[T]): auto	
+rewriteTensor_MultiplyAdd	optim_ops_fusion.html#rewriteTensor_MultiplyAdd.t,Tensor[T],Tensor[T],Tensor[T]_2	optim_ops_fusion: rewriteTensor_MultiplyAdd{\n  C + `*`(A, B)\n}[T](A, B, C: Tensor[T]): auto	
+rewriteTensor_MultiplyAdd_inplace	optim_ops_fusion.html#rewriteTensor_MultiplyAdd_inplace.t,Tensor[T],Tensor[T],Tensor[T]	optim_ops_fusion: rewriteTensor_MultiplyAdd_inplace{\n  C += `*`(A, B)\n}[T](A, B: Tensor[T]; C: var Tensor[T])	
+rewriteToTensorReshape	optim_ops_fusion.html#rewriteToTensorReshape.t,openArray,varargs[int],static[int]	optim_ops_fusion: rewriteToTensorReshape{\n  reshape(toTensor(oa, dummy_bugfix), shape)\n}(oa: openArray; shape: varargs[int]; dummy_bugfix: static[int]): auto	

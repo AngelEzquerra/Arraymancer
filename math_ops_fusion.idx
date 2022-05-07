@@ -1,0 +1,4 @@
+ln1p	math_ops_fusion.html#ln1p,float32	math_ops_fusion: ln1p(x: float32): float32	
+ln1p	math_ops_fusion.html#ln1p,float64	math_ops_fusion: ln1p(x: float64): float64	
+expm1	math_ops_fusion.html#expm1,float32	math_ops_fusion: expm1(x: float32): float32	
+expm1	math_ops_fusion.html#expm1,float64	math_ops_fusion: expm1(x: float64): float64	

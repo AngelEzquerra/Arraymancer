@@ -1,0 +1,1 @@
+desugar	p_accessors_macros_desugar.html#desugar.m,untyped	p_accessors_macros_desugar: desugar(args: untyped): void	## Traverse top tree nodes and one-hot-encode the different conditions

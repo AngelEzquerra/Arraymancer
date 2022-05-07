@@ -1,0 +1,5 @@
+symeig	decomposition.html#symeig,Tensor[T: SomeFloat],staticbool,staticchar	decomposition: symeig[T: SomeFloat](a: Tensor[T]; return_eigenvectors: static bool = false;\n                     uplo: static char = &apos;U&apos;): tuple[\n    eigenval, eigenvec: Tensor[T]]	
+symeig	decomposition.html#symeig,Tensor[T: SomeFloat],staticbool,staticchar,HSlice[,]	decomposition: symeig[T: SomeFloat](a: Tensor[T]; return_eigenvectors: static bool = false;\n                     uplo: static char = &apos;U&apos;;\n                     slice: HSlice[[type node], [type node]]): tuple[\n    eigenval, eigenvec: Tensor[T]]	
+qr	decomposition.html#qr,Tensor[T: SomeFloat]	decomposition: qr[T: SomeFloat](a: Tensor[T]): tuple[Q, R: Tensor[T]]	
+lu_permuted	decomposition.html#lu_permuted,Tensor[T: SomeFloat]	decomposition: lu_permuted[T: SomeFloat](a: Tensor[T]): tuple[PL, U: Tensor[T]]	
+svd	decomposition.html#svd,Tensor[T: SomeFloat]	decomposition: svd[T: SomeFloat](A: Tensor[T]): tuple[U, S, Vh: Tensor[T]]	

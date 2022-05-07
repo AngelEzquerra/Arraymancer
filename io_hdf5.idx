@@ -1,0 +1,6 @@
+read_hdf5	io_hdf5.html#read_hdf5,H5File,Option[string],Option[string],Option[int]	io_hdf5: read_hdf5[T: SomeNumber](h5f: var H5FileObj; name, group: Option[string];\n                         number: Option[int]): Tensor[T]	
+read_hdf5	io_hdf5.html#read_hdf5,H5File,string,string,int	io_hdf5: read_hdf5[T: SomeNumber](h5f: var H5FileObj; name, group = &quot;&quot;; number = -1): Tensor[\n    T]	
+read_hdf5	io_hdf5.html#read_hdf5,string,string,string,int	io_hdf5: read_hdf5[T: SomeNumber](hdf5Path: string; name, group = &quot;&quot;; number = -1): Tensor[\n    T]	
+write_hdf5	io_hdf5.html#write_hdf5,H5File,Tensor[T: SomeNumber],Option[string],Option[string]	io_hdf5: write_hdf5[T: SomeNumber](h5f: var H5FileObj; t: Tensor[T];\n                          name, group: Option[string])	
+write_hdf5	io_hdf5.html#write_hdf5,H5File,Tensor[T: SomeNumber],string,string	io_hdf5: write_hdf5[T: SomeNumber](h5f: var H5FileObj; t: Tensor[T]; name, group = &quot;&quot;)	
+write_hdf5	io_hdf5.html#write_hdf5,Tensor[T: SomeNumber],string,string,string	io_hdf5: write_hdf5[T: SomeNumber](t: Tensor[T]; hdf5Path: string; name, group = &quot;&quot;)	

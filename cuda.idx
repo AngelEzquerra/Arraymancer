@@ -1,0 +1,4 @@
+cudaMalloc	cuda.html#cudaMalloc,Natural	cuda: cudaMalloc[T](size: Natural): ptr T	
+deallocCuda	cuda.html#deallocCuda,ref.	cuda: deallocCuda[T](p: ref [ptr T])	
+newCudaStorage	cuda.html#newCudaStorage,int	cuda: newCudaStorage[T: SomeFloat](length: int): CudaStorage[T]	
+layoutOnDevice	cuda.html#layoutOnDevice,CudaTensor[T: SomeFloat]	cuda: layoutOnDevice[T: SomeFloat](t: CudaTensor[T]): CudaTensorLayout[T]	

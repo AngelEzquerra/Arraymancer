@@ -1,0 +1,9 @@
+squared_error	common_error_functions.html#squared_error,T,T	common_error_functions: squared_error[T](y, y_true: T): T	
+squared_error	common_error_functions.html#squared_error,Tensor[T],Tensor[T]	common_error_functions: squared_error[T](y, y_true: Tensor[T]): Tensor[T]	
+mean_squared_error	common_error_functions.html#mean_squared_error,Tensor[T],Tensor[T]	common_error_functions: mean_squared_error[T](y, y_true: Tensor[T]): T	
+relative_error	common_error_functions.html#relative_error,T,T	common_error_functions: relative_error[T: SomeFloat](y, y_true: T): T	
+relative_error	common_error_functions.html#relative_error,Tensor[T],Tensor[T]	common_error_functions: relative_error[T](y, y_true: Tensor[T]): Tensor[T]	
+mean_relative_error	common_error_functions.html#mean_relative_error,Tensor[T],Tensor[T]	common_error_functions: mean_relative_error[T](y, y_true: Tensor[T]): T	
+absolute_error	common_error_functions.html#absolute_error,T,T	common_error_functions: absolute_error[T: SomeFloat](y, y_true: T): T	
+absolute_error	common_error_functions.html#absolute_error,Tensor[T],Tensor[T]	common_error_functions: absolute_error[T](y, y_true: Tensor[T]): Tensor[T]	
+mean_absolute_error	common_error_functions.html#mean_absolute_error,Tensor[T],Tensor[T]	common_error_functions: mean_absolute_error[T](y, y_true: Tensor[T]): T	

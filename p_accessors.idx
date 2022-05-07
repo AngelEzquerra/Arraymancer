@@ -1,0 +1,18 @@
+getIndex	p_accessors.html#getIndex,Tensor[T],varargs[int]	p_accessors: getIndex[T](t: Tensor[T]; idx: varargs[int]): int	
+getContiguousIndex	p_accessors.html#getContiguousIndex,Tensor[T],int	p_accessors: getContiguousIndex[T](t: Tensor[T]; idx: int): int	
+atIndex	p_accessors.html#atIndex,Tensor[T],varargs[int]	p_accessors: atIndex[T](t: Tensor[T]; idx: varargs[int]): T	
+atIndex	p_accessors.html#atIndex,Tensor[T],varargs[int]_2	p_accessors: atIndex[T](t: var Tensor[T]; idx: varargs[int]): var T	
+atIndexMut	p_accessors.html#atIndexMut,Tensor[T],varargs[int],T	p_accessors: atIndexMut[T](t: var Tensor[T]; idx: varargs[int]; val: T)	
+Values	p_accessors.html#Values	IterKind.Values	
+Iter_Values	p_accessors.html#Iter_Values	IterKind.Iter_Values	
+Offset_Values	p_accessors.html#Offset_Values	IterKind.Offset_Values	
+IterKind	p_accessors.html#IterKind	p_accessors: IterKind	
+initStridedIteration	p_accessors.html#initStridedIteration.t,untyped,untyped,untyped,typed,typed,typed	p_accessors: initStridedIteration(coord, backstrides, iter_pos: untyped;\n                     t, iter_offset, iter_size: typed): untyped	
+advanceStridedIteration	p_accessors.html#advanceStridedIteration.t,typed,typed,typed,typed,typed,typed	p_accessors: advanceStridedIteration(coord, backstrides, iter_pos, t, iter_offset, iter_size: typed): untyped	
+stridedIterationYield	p_accessors.html#stridedIterationYield.t,IterKind,typed,typed,typed	p_accessors: stridedIterationYield(strider: IterKind; data, i, iter_pos: typed)	
+stridedIteration	p_accessors.html#stridedIteration.t,IterKind,typed,typed,typed	p_accessors: stridedIteration(strider: IterKind; t, iter_offset, iter_size: typed): untyped	
+stridedCoordsIteration	p_accessors.html#stridedCoordsIteration.t,typed,typed,typed	p_accessors: stridedCoordsIteration(t, iter_offset, iter_size: typed): untyped	
+dualStridedIterationYield	p_accessors.html#dualStridedIterationYield.t,IterKind,typed,typed,typed,typed,typed	p_accessors: dualStridedIterationYield(strider: IterKind;\n                          t1data, t2data, i, t1_iter_pos, t2_iter_pos: typed)	
+dualStridedIteration	p_accessors.html#dualStridedIteration.t,IterKind,typed,typed,typed,typed	p_accessors: dualStridedIteration(strider: IterKind; t1, t2, iter_offset, iter_size: typed): untyped	
+tripleStridedIterationYield	p_accessors.html#tripleStridedIterationYield.t,IterKind,typed,typed,typed,typed,typed,typed,typed	p_accessors: tripleStridedIterationYield(strider: IterKind; t1data, t2data, t3data, i,\n    t1_iter_pos, t2_iter_pos, t3_iter_pos: typed)	
+tripleStridedIteration	p_accessors.html#tripleStridedIteration.t,IterKind,typed,typed,typed,typed,typed	p_accessors: tripleStridedIteration(strider: IterKind;\n                       t1, t2, t3, iter_offset, iter_size: typed): untyped	

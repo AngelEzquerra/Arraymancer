@@ -1,0 +1,16 @@
+toMetadata	initialization.html#toMetadata,varargs[int]	initialization: toMetadata(s: varargs[int]): Metadata	
+toMetadata	initialization.html#toMetadata.t,Metadata	initialization: toMetadata(m: Metadata): Metadata	
+initTensorMetadata	initialization.html#initTensorMetadata,Tensor,int,openArray[int],staticOrderType	initialization: initTensorMetadata(result: var Tensor; size: var int; shape: openArray[int];\n                   layout: static OrderType = rowMajor)	
+initTensorMetadata	initialization.html#initTensorMetadata,Tensor,int,Metadata,staticOrderType	initialization: initTensorMetadata(result: var Tensor; size: var int; shape: Metadata;\n                   layout: static OrderType = rowMajor)	
+deepCopy	initialization.html#deepCopy,Tensor[T],Tensor[T]	initialization: deepCopy[T](dst: var Tensor[T]; src: Tensor[T])	
+copyFrom	initialization.html#copyFrom,Tensor[T],Tensor[T]	initialization: copyFrom[T](dst: var Tensor[T]; src: Tensor[T])	
+copyFromRaw	initialization.html#copyFromRaw,Tensor[T],ptr.T,Natural	initialization: copyFromRaw[T](dst: var Tensor[T]; buffer: ptr T; len: Natural)	
+setZero	initialization.html#setZero,Tensor[T],staticbool	initialization: setZero[T](t: var Tensor[T]; check_contiguous: static bool = true)	
+newTensor	initialization.html#newTensor,varargs[int]	initialization: newTensor[T](shape: varargs[int]): Tensor[T]	
+newTensor	initialization.html#newTensor,Metadata	initialization: newTensor[T](shape: Metadata): Tensor[T]	
+toTensor	initialization.html#toTensor,openArray,static[int]	initialization: toTensor(a: openArray; dummy_bugfix: static[int] = 0): auto	
+fromBuffer	initialization.html#fromBuffer,ptr.UncheckedArray[T],varargs[int],staticOrderType	initialization: fromBuffer[T](rawBuffer: ptr UncheckedArray[T]; shape: varargs[int];\n              layout: static OrderType): Tensor[T]	
+fromBuffer	initialization.html#fromBuffer,ptr.UncheckedArray[T],varargs[int]	initialization: fromBuffer[T](rawBuffer: ptr UncheckedArray[T]; shape: varargs[int]): Tensor[T]	
+fromBuffer	initialization.html#fromBuffer,pointer,varargs[int],staticOrderType	initialization: fromBuffer[T](rawBuffer: pointer; shape: varargs[int]; layout: static OrderType): Tensor[\n    T]	
+fromBuffer	initialization.html#fromBuffer,pointer,varargs[int]	initialization: fromBuffer[T](rawBuffer: pointer; shape: varargs[int]): Tensor[T]	
+toUnsafeView	initialization.html#toUnsafeView,Tensor[T: KnownSupportsCopyMem],staticbool	initialization: toUnsafeView[T: KnownSupportsCopyMem](t: Tensor[T]; aligned: static bool = true): ptr UncheckedArray[\n    T]	

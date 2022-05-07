@@ -1,0 +1,22 @@
+SteppedSlice	accessors_macros_syntax.html#SteppedSlice	accessors_macros_syntax: SteppedSlice	
+Step	accessors_macros_syntax.html#Step	accessors_macros_syntax: Step	
+`_`	accessors_macros_syntax.html#_	accessors_macros_syntax: _	
+Ellipsis	accessors_macros_syntax.html#Ellipsis	accessors_macros_syntax: Ellipsis	
+`...`	accessors_macros_syntax.html#...	accessors_macros_syntax: ...	
+ArrayOfSlices	accessors_macros_syntax.html#ArrayOfSlices	accessors_macros_syntax: ArrayOfSlices	
+toArrayOfSlices	accessors_macros_syntax.html#toArrayOfSlices,varargs[SteppedSlice]	accessors_macros_syntax: toArrayOfSlices(s: varargs[SteppedSlice]): ArrayOfSlices	
+initSpanSlices	accessors_macros_syntax.html#initSpanSlices,int	accessors_macros_syntax: initSpanSlices(len: int): ArrayOfSlices	
+`|`	accessors_macros_syntax.html#|,Slice[int],int	accessors_macros_syntax: `|`(s: Slice[int]; step: int): SteppedSlice	
+`|`	accessors_macros_syntax.html#|,int,int	accessors_macros_syntax: `|`(b, step: int): Step	
+`|`	accessors_macros_syntax.html#|,SteppedSlice,int	accessors_macros_syntax: `|`(ss: SteppedSlice; step: int): SteppedSlice	
+`|+`	accessors_macros_syntax.html#|+,Slice[int],int	accessors_macros_syntax: `|+`(s: Slice[int]; step: int): SteppedSlice	
+`|+`	accessors_macros_syntax.html#|+,int,int	accessors_macros_syntax: `|+`(b, step: int): Step	
+`|+`	accessors_macros_syntax.html#|+,SteppedSlice,int	accessors_macros_syntax: `|+`(ss: SteppedSlice; step: int): SteppedSlice	
+`|-`	accessors_macros_syntax.html#|-,Slice[int],int	accessors_macros_syntax: `|-`(s: Slice[int]; step: int): SteppedSlice	
+`|-`	accessors_macros_syntax.html#|-,int,int	accessors_macros_syntax: `|-`(b, step: int): Step	
+`|-`	accessors_macros_syntax.html#|-,SteppedSlice,int	accessors_macros_syntax: `|-`(ss: SteppedSlice; step: int): SteppedSlice	
+`..`	accessors_macros_syntax.html#..,int,Step	accessors_macros_syntax: `..`(a: int; s: Step): SteppedSlice	
+`..&lt;`	accessors_macros_syntax.html#..<,int,Step	accessors_macros_syntax: `..&lt;`(a: int; s: Step): SteppedSlice	
+`..^`	accessors_macros_syntax.html#..^,int,Step	accessors_macros_syntax: `..^`(a: int; s: Step): SteppedSlice	
+`^`	accessors_macros_syntax.html#^,SteppedSlice	accessors_macros_syntax: `^`(s: SteppedSlice): SteppedSlice	
+`^`	accessors_macros_syntax.html#^,Slice	accessors_macros_syntax: `^`(s: Slice): SteppedSlice	

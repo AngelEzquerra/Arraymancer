@@ -1,0 +1,1 @@
+check_input_target	p_nnp_checks.html#check_input_target,Tensor[T],Tensor[T]	p_nnp_checks: check_input_target[T](input, target: Tensor[T])	

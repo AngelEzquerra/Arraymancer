@@ -1,0 +1,2 @@
+newCudaTensor	p_init_cuda.html#newCudaTensor,varargs[int],OrderType	p_init_cuda: newCudaTensor[T: SomeFloat](shape: varargs[int]; layout: OrderType = colMajor): CudaTensor[\n    T]	
+newCudaTensor	p_init_cuda.html#newCudaTensor,Metadata,OrderType	p_init_cuda: newCudaTensor[T: SomeFloat](shape: Metadata; layout: OrderType = colMajor): CudaTensor[\n    T]	

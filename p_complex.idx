@@ -1,0 +1,5 @@
+numberOne	p_complex.html#numberOne.t,typeSomeNumber	p_complex: numberOne(T: type SomeNumber): SomeNumber	
+numberOne	p_complex.html#numberOne.t,typeComplex[float32]	p_complex: numberOne(T: type Complex[float32]): Complex[float32]	
+numberOne	p_complex.html#numberOne.t,typeComplex[float64]	p_complex: numberOne(T: type Complex[float64]): Complex[float64]	
+Complex64	p_complex.html#Complex64.c,T	p_complex: Complex64[T: SomeNumber](x: T): Complex[float64]	
+Complex32	p_complex.html#Complex32.c,T	p_complex: Complex32[T: SomeNumber](x: T): Complex[float32]	

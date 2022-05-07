@@ -1,0 +1,18 @@
+Context	autograd_common.html#Context	autograd_common: Context	
+Variable	autograd_common.html#Variable	autograd_common: Variable	
+Gate	autograd_common.html#Gate	autograd_common: Gate	
+pkVar	autograd_common.html#pkVar	PayloadKind.pkVar	
+pkSeq	autograd_common.html#pkSeq	PayloadKind.pkSeq	
+PayloadKind	autograd_common.html#PayloadKind	autograd_common: PayloadKind	
+Payload	autograd_common.html#Payload	autograd_common: Payload	
+Backward	autograd_common.html#Backward	autograd_common: Backward	
+SmallDiffs	autograd_common.html#SmallDiffs	autograd_common: SmallDiffs	
+newContext	autograd_common.html#newContext,typedesc	autograd_common: newContext(TT: typedesc): Context[TT]	
+variable	autograd_common.html#variable,Context[TT],TT	autograd_common: variable[TT](ctx: Context[TT]; value: TT; requires_grad = false): Variable[TT]	
+register_node	autograd_common.html#register_node,staticstring,Gate[TT],Backward[TT],,varargs[Variable[TT]]	autograd_common: register_node[TT](name: static string; gate: Gate[TT]; backward: Backward[TT];\n                  result: Variable[TT] or seq[Variable[TT]];\n                  parents: varargs[Variable[TT]])	
+no_grad_mode	autograd_common.html#no_grad_mode.t,Context,untyped	autograd_common: no_grad_mode(ctx: Context; body: untyped): untyped	
+is_grad_needed	autograd_common.html#is_grad_needed,Variable	autograd_common: is_grad_needed(v: Variable): bool	
+check_ctx	autograd_common.html#check_ctx,Variable,Variable	autograd_common: check_ctx(a, b: Variable)	
+backprop	autograd_common.html#backprop,Variable[TT]	autograd_common: backprop[TT](v: Variable[TT])	
+newParents	autograd_common.html#newParents,Natural	autograd_common: newParents[TT](num: Natural): Parents[TT]	
+newDiffs	autograd_common.html#newDiffs,Natural	autograd_common: newDiffs[TT](num: Natural): SmallDiffs[TT]	

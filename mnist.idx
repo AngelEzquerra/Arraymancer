@@ -1,0 +1,4 @@
+read_mnist_images	mnist.html#read_mnist_images,string	mnist: read_mnist_images(imgsPath: string): Tensor[uint8]	
+read_mnist_labels	mnist.html#read_mnist_labels,Stream	mnist: read_mnist_labels(stream: Stream): Tensor[uint8]	
+read_mnist_labels	mnist.html#read_mnist_labels,string	mnist: read_mnist_labels(labelsPath: string): Tensor[uint8]	
+load_mnist	mnist.html#load_mnist,staticbool	mnist: load_mnist(cache: static bool = true): Mnist	

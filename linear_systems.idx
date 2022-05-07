@@ -1,0 +1,9 @@
+mkGeneral	linear_systems.html#mkGeneral	MatrixKind.mkGeneral	
+mkGenBand	linear_systems.html#mkGenBand	MatrixKind.mkGenBand	
+mkGenTriDiag	linear_systems.html#mkGenTriDiag	MatrixKind.mkGenTriDiag	
+mkSymmetric	linear_systems.html#mkSymmetric	MatrixKind.mkSymmetric	
+mkPosDef	linear_systems.html#mkPosDef	MatrixKind.mkPosDef	
+mkPosDefBand	linear_systems.html#mkPosDefBand	MatrixKind.mkPosDefBand	
+mkPosDefTriDiag	linear_systems.html#mkPosDefTriDiag	MatrixKind.mkPosDefTriDiag	
+MatrixKind	linear_systems.html#MatrixKind	linear_systems: MatrixKind	
+solve	linear_systems.html#solve,Tensor[T: SomeFloat],Tensor[T: SomeFloat],MatrixKind	linear_systems: solve[T: SomeFloat](a, b: Tensor[T]; kind: MatrixKind = mkGeneral): Tensor[T]	

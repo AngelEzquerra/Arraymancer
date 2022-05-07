@@ -1,0 +1,1 @@
+`[]=`	accessors_macros_write.html#[]=.m,Tensor[T],varargs[untyped]	accessors_macros_write: `[]=`[T](t: var Tensor[T]; args: varargs[untyped]): untyped	

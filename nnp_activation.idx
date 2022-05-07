@@ -1,0 +1,9 @@
+sigmoid	nnp_activation.html#sigmoid,Tensor[T: SomeFloat]	nnp_activation: sigmoid[T: SomeFloat](t: Tensor[T]): Tensor[T]	
+relu	nnp_activation.html#relu,Tensor[T]	nnp_activation: relu[T](t: Tensor[T]): Tensor[T]	
+tanh	nnp_activation.html#tanh,Tensor[T: SomeFloat]	nnp_activation: tanh[T: SomeFloat](t: Tensor[T]): Tensor[T]	
+msigmoid	nnp_activation.html#msigmoid,Tensor[T: SomeFloat]	nnp_activation: msigmoid[T: SomeFloat](t: var Tensor[T])	
+mrelu	nnp_activation.html#mrelu,Tensor[T]	nnp_activation: mrelu[T](t: var Tensor[T])	
+mtanh	nnp_activation.html#mtanh,Tensor[T: SomeFloat]	nnp_activation: mtanh[T: SomeFloat](t: var Tensor[T])	
+sigmoid_backward	nnp_activation.html#sigmoid_backward,Tensor[T],Tensor[T]	nnp_activation: sigmoid_backward[T](gradient: Tensor[T]; cached_tensor: Tensor[T]): Tensor[T]	
+relu_backward	nnp_activation.html#relu_backward,Tensor[T],Tensor[T]	nnp_activation: relu_backward[T](gradient: Tensor[T]; cached_tensor: Tensor[T]): Tensor[T]	
+tanh_backward	nnp_activation.html#tanh_backward,Tensor[T],Tensor[T]	nnp_activation: tanh_backward[T](gradient: Tensor[T]; cached_tensor: Tensor[T]): Tensor[T]	

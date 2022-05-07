@@ -1,0 +1,2 @@
+HadamardGate	gates_hadamard.html#HadamardGate	gates_hadamard: HadamardGate	
+`*.`	gates_hadamard.html#*.,Variable[TT],Variable[TT]	gates_hadamard: `*.`[TT](a, b: Variable[TT]): Variable[TT]	

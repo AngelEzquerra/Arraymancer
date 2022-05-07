@@ -1,0 +1,1 @@
+load_imdb	imdb.html#load_imdb,staticbool	imdb: load_imdb(cache: static bool = true): Imdb	

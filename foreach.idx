@@ -1,0 +1,6 @@
+forEachContiguous	foreach.html#forEachContiguous.m,varargs[untyped]	foreach: forEachContiguous(args: varargs[untyped]): untyped	
+forEachContiguousSerial	foreach.html#forEachContiguousSerial.m,varargs[untyped]	foreach: forEachContiguousSerial(args: varargs[untyped]): untyped	
+forEachStrided	foreach.html#forEachStrided.m,varargs[untyped]	foreach: forEachStrided(args: varargs[untyped]): untyped	
+forEachStridedSerial	foreach.html#forEachStridedSerial.m,varargs[untyped]	foreach: forEachStridedSerial(args: varargs[untyped]): untyped	
+forEach	foreach.html#forEach.m,varargs[untyped]	foreach: forEach(args: varargs[untyped]): untyped	
+forEachSerial	foreach.html#forEachSerial.m,varargs[untyped]	foreach: forEachSerial(args: varargs[untyped]): untyped	

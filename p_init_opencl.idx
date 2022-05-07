@@ -1,0 +1,2 @@
+newClTensor	p_init_opencl.html#newClTensor,varargs[int],OrderType	p_init_opencl: newClTensor[T: SomeFloat](shape: varargs[int]; layout: OrderType = rowMajor): ClTensor[\n    T]	
+newClTensor	p_init_opencl.html#newClTensor,Metadata,OrderType	p_init_opencl: newClTensor[T: SomeFloat](shape: Metadata; layout: OrderType = rowMajor): ClTensor[\n    T]	

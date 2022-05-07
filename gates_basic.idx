@@ -1,0 +1,4 @@
+AddGate	gates_basic.html#AddGate	gates_basic: AddGate	
+`+`	gates_basic.html#+,Variable[TT],Variable[TT]	gates_basic: `+`[TT](a, b: Variable[TT]): Variable[TT]	
+SubGate	gates_basic.html#SubGate	gates_basic: SubGate	
+`-`	gates_basic.html#-,Variable[TT],Variable[TT]	gates_basic: `-`[TT](a, b: Variable[TT]): Variable[TT]	

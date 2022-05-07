@@ -1,0 +1,2 @@
+MSELoss	mean_square_error_loss.html#MSELoss	mean_square_error_loss: MSELoss	
+mse_loss	mean_square_error_loss.html#mse_loss,Variable[TT],TT	mean_square_error_loss: mse_loss[TT](input: Variable[TT]; target: TT): Variable[TT]	

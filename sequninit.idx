@@ -1,0 +1,1 @@
+newSeqUninit	sequninit.html#newSeqUninit,Natural	sequninit: newSeqUninit[T](len: Natural): seq[T]	

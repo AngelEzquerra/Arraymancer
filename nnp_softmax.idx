@@ -1,0 +1,1 @@
+softmax	nnp_softmax.html#softmax,Tensor[T]	nnp_softmax: softmax[T](input: Tensor[T]): Tensor[T]	

@@ -1,0 +1,2 @@
+SigmoidActivation	sigmoid.html#SigmoidActivation	sigmoid: SigmoidActivation	
+sigmoid	sigmoid.html#sigmoid,Variable[TT]	sigmoid: sigmoid[TT](a: Variable[TT]): Variable[TT]	

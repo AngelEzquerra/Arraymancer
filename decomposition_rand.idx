@@ -1,0 +1,1 @@
+svd_randomized	decomposition_rand.html#svd_randomized,Tensor[T],int,int,int	decomposition_rand: svd_randomized[T](A: Tensor[T]; n_components = 2; n_oversamples = 5;\n                  n_power_iters = 2): tuple[U, S, Vh: Tensor[T]]	

@@ -1,0 +1,11 @@
+einsum	einsum.html#einsum.m,varargs[typed],untyped	einsum: einsum(tensors: varargs[typed]; stmt: untyped): untyped	
+Simple Einstein summation examples	einsum.html#simple-einstein-summation-examples	 Simple Einstein summation examples	
+Matrix-vector multiplication	einsum.html#simple-einstein-summation-examples-matrixminusvector-multiplication	  Matrix-vector multiplication	
+Matrix-matrix multiplication	einsum.html#simple-einstein-summation-examples-matrixminusmatrix-multiplication	  Matrix-matrix multiplication	
+Cross-product of two vectors	einsum.html#simple-einstein-summation-examples-crossminusproduct-of-two-vectors	  Cross-product of two vectors	
+More complex examples	einsum.html#more-complex-examples	 More complex examples	
+Transposition of a matrix	einsum.html#more-complex-examples-transposition-of-a-matrix	  Transposition of a matrix	
+Hadamard product	einsum.html#more-complex-examples-hadamard-product	  Hadamard product	
+Contracting a whole matrix	einsum.html#more-complex-examples-contracting-a-whole-matrix	  Contracting a whole matrix	
+The einsum macro	einsum.html#the-nimeinsum-macro	 The <tt class="docutils literal"><span class="pre"><span class="Identifier">einsum</span></span></tt> macro	
+Implementation details	einsum.html#the-nimeinsum-macro-implementation-details	  Implementation details	

@@ -1,0 +1,1 @@
+newMatrixUninitColMajor	init_colmajor.html#newMatrixUninitColMajor,Tensor[T],int,int	init_colmajor: newMatrixUninitColMajor[T](M: var Tensor[T]; rows, cols: int)	

@@ -1,0 +1,2 @@
+kmeans	kmeans.html#kmeans,Tensor[T: SomeFloat],int,float,int,int,int	kmeans: kmeans[T: SomeFloat](x: Tensor[T]; n_clusters = 10; tol: float = 0.0001;\n                     n_init = 10; max_iters = 300; seed = 1000; random = false): tuple[\n    labels: Tensor[int], centroids: Tensor[T], inertia: T]	
+kmeans	kmeans.html#kmeans,Tensor[T: SomeFloat],Tensor[T: SomeFloat]	kmeans: kmeans[T: SomeFloat](x: Tensor[T]; centroids: Tensor[T]): Tensor[int]	

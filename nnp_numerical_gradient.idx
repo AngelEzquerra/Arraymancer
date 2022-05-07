@@ -1,0 +1,2 @@
+numerical_gradient	nnp_numerical_gradient.html#numerical_gradient,T,,typeof(T(0.00001))	nnp_numerical_gradient: numerical_gradient[T](input: T; f: (proc (x: T): T); h = T(0.00001)): T	
+numerical_gradient	nnp_numerical_gradient.html#numerical_gradient,Tensor[T],,typeof(T(0.00001))	nnp_numerical_gradient: numerical_gradient[T](input: Tensor[T]; f: (proc (x: Tensor[T]): T);\n                      h = T(0.00001)): Tensor[T]	

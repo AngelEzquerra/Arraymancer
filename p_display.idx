@@ -1,0 +1,2 @@
+disp2d	p_display.html#disp2d,Tensor[T],int,int,int	p_display: disp2d[T](t: Tensor[T]; alignBy = 6; alignSpacing = 3; precision = -1): string	
+prettyImpl	p_display.html#prettyImpl,Tensor[T],int,int,int,int	p_display: prettyImpl[T](t: Tensor[T]; inputRank = 0; alignBy = 0; alignSpacing = 4;\n              precision = -1): string	

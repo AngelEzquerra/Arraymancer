@@ -1,0 +1,6 @@
+kaiming_uniform	init.html#kaiming_uniform,varargs[int],type	init: kaiming_uniform(shape: varargs[int]; T: type): Tensor[T]	
+kaiming_normal	init.html#kaiming_normal,varargs[int],type	init: kaiming_normal(shape: varargs[int]; T: type): Tensor[T]	
+xavier_uniform	init.html#xavier_uniform,varargs[int],type	init: xavier_uniform(shape: varargs[int]; T: type): Tensor[T]	
+xavier_normal	init.html#xavier_normal,varargs[int],type	init: xavier_normal(shape: varargs[int]; T: type): Tensor[T]	
+yann_uniform	init.html#yann_uniform,varargs[int],type	init: yann_uniform(shape: varargs[int]; T: type): Tensor[T]	
+yann_normal	init.html#yann_normal,varargs[int],type	init: yann_normal(shape: varargs[int]; T: type): Tensor[T]	

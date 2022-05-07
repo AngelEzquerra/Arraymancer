@@ -1,0 +1,5 @@
+MeanGate	gates_reduce.html#MeanGate	gates_reduce: MeanGate	
+mean	gates_reduce.html#mean,Variable[TT]	gates_reduce: mean[TT](a: Variable[TT]): Variable[TT]	
+mean	gates_reduce.html#mean,Variable[TT],Natural	gates_reduce: mean[TT](a: Variable[TT]; axis: Natural): Variable[TT]	
+SumGate	gates_reduce.html#SumGate	gates_reduce: SumGate	
+sum	gates_reduce.html#sum,Variable[TT]	gates_reduce: sum[TT](a: Variable[TT]): Variable[TT]	

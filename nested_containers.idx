@@ -1,0 +1,4 @@
+flatIter	nested_containers.html#flatIter.i,string	nested_containers: flatIter(s: string): string	
+flatIter	nested_containers.html#flatIter.i,openArray[T]	nested_containers: flatIter[T](s: openArray[T]): auto	
+getShape	nested_containers.html#getShape,string	nested_containers: getShape(s: string; parent_shape = Metadata()): Metadata	
+getShape	nested_containers.html#getShape,openArray[T]	nested_containers: getShape[T](s: openArray[T]; parent_shape = Metadata()): Metadata	

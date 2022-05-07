@@ -1,0 +1,1 @@
+align_raw_data	memory.html#align_raw_data,typedesc,pointer	memory: align_raw_data(T: typedesc; p: pointer): ptr UncheckedArray[T:type]	

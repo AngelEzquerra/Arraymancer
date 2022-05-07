@@ -1,0 +1,2 @@
+skipIfEmpty	p_empty_tensors.html#skipIfEmpty.t,typed	p_empty_tensors: skipIfEmpty(t: typed): untyped	
+returnEmptyIfEmpty	p_empty_tensors.html#returnEmptyIfEmpty.m,varargs[untyped]	p_empty_tensors: returnEmptyIfEmpty(tensors: varargs[untyped]): untyped	

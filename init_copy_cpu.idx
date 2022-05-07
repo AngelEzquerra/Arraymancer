@@ -1,0 +1,1 @@
+clone	init_copy_cpu.html#clone,Tensor[T],OrderType	init_copy_cpu: clone[T](t: Tensor[T]; layout: OrderType = rowMajor): Tensor[T]	

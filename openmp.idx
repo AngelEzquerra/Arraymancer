@@ -1,0 +1,8 @@
+omp_set_num_threads	openmp.html#omp_set_num_threads.t,cint	openmp: omp_set_num_threads(x: cint)	
+omp_get_num_threads	openmp.html#omp_get_num_threads.t	openmp: omp_get_num_threads(): cint	
+omp_get_max_threads	openmp.html#omp_get_max_threads.t	openmp: omp_get_max_threads(): cint	
+omp_get_thread_num	openmp.html#omp_get_thread_num.t	openmp: omp_get_thread_num(): cint	
+omp_parallel_countup	openmp.html#omp_parallel_countup.t,untyped,Natural,untyped	openmp: omp_parallel_countup(i: untyped; size: Natural; body: untyped): untyped	
+omp_parallel_forup	openmp.html#omp_parallel_forup.t,untyped,Natural,Natural,untyped	openmp: omp_parallel_forup(i: untyped; start, size: Natural; body: untyped): untyped	
+omp_parallel_blocks	openmp.html#omp_parallel_blocks.t,untyped,untyped,Natural,untyped	openmp: omp_parallel_blocks(block_offset, block_size: untyped; size: Natural;\n                    body: untyped): untyped	
+omp_parallel_reduce_blocks	openmp.html#omp_parallel_reduce_blocks.t,T,untyped,untyped,Natural,Natural,untyped,untyped,untyped	openmp: omp_parallel_reduce_blocks[T](reduced: T; block_offset, block_size: untyped;\n                              size, weight: Natural;\n                              op_final, op_init, op_middle: untyped): untyped	

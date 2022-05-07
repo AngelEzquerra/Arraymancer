@@ -1,0 +1,2 @@
+MatMulGate	gates_blas.html#MatMulGate	gates_blas: MatMulGate	
+`*`	gates_blas.html#*,Variable[TT],Variable[TT]	gates_blas: `*`[TT](a, b: Variable[TT]): Variable[TT]	

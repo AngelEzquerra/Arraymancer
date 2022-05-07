@@ -1,0 +1,4 @@
+pca	pca.html#pca,Tensor[T: SomeFloat],int,staticbool,int,int	pca: pca[T: SomeFloat](X: Tensor[T]; n_components = 2; center: static bool = true;\n                  n_oversamples = 5; n_power_iters = 2): tuple[\n    projected: Tensor[T], components: Tensor[T]]	
+PCA_Detailed	pca.html#PCA_Detailed	pca: PCA_Detailed	
+`$`	pca.html#$,PCA_Detailed	pca: `$`(pca: PCA_Detailed): string	
+pca_detailed	pca.html#pca_detailed,Tensor[T: SomeFloat],int,staticbool,int,int	pca: pca_detailed[T: SomeFloat](X: Tensor[T]; n_components = 2;\n                           center: static bool = true; n_oversamples = 5;\n                           n_power_iters = 2): PCA_Detailed[T]	

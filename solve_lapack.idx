@@ -1,0 +1,1 @@
+gesv	solve_lapack.html#gesv,Tensor[T: SomeFloat],Tensor[T: SomeFloat],seq[int32]	solve_lapack: gesv[T: SomeFloat](a, b: var Tensor[T]; pivot_indices: var seq[int32])	

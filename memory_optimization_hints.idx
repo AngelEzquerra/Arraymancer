@@ -1,0 +1,2 @@
+withMemoryOptimHints	memory_optimization_hints.html#withMemoryOptimHints.t	memory_optimization_hints: withMemoryOptimHints()	
+assume_aligned	memory_optimization_hints.html#assume_aligned.t,ptr.T,csize_t	memory_optimization_hints: assume_aligned[T](data: ptr T; n: csize_t): ptr T	

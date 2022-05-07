@@ -1,0 +1,7 @@
+`+`	gemm_utils.html#+,ptr,int	gemm_utils: `+`(p: ptr; offset: int): type(p)	
+to_ptr	gemm_utils.html#to_ptr.t,typed,staticint,staticint,typedesc	gemm_utils: to_ptr(AB: typed; MR, NR: static int; T: typedesc): untyped	
+MatrixView	gemm_utils.html#MatrixView	gemm_utils: MatrixView	
+toMatrixView	gemm_utils.html#toMatrixView,ptr.T,int,int	gemm_utils: toMatrixView[T](data: ptr T; rowStride, colStride: int): MatrixView[T]	
+`[]`	gemm_utils.html#[].t,MatrixView[T],Natural,Natural	gemm_utils: `[]`[T](view: MatrixView[T]; row, col: Natural): T	
+`[]=`	gemm_utils.html#[]=.t,MatrixView[T],Natural,Natural,T	gemm_utils: `[]=`[T](view: MatrixView[T]; row, col: Natural; value: T)	
+stride	gemm_utils.html#stride,MatrixView[T],Natural,Natural	gemm_utils: stride[T](view: MatrixView[T]; row, col: Natural): MatrixView[T]	

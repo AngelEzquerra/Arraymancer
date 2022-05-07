@@ -1,0 +1,4 @@
+cuda	init_cuda.html#cuda,Tensor[T: SomeFloat]	init_cuda: cuda[T: SomeFloat](t: Tensor[T]): CudaTensor[T]	
+cpu	init_cuda.html#cpu,CudaTensor[T: SomeFloat]	init_cuda: cpu[T: SomeFloat](t: CudaTensor[T]): Tensor[T]	
+zeros_like	init_cuda.html#zeros_like,CudaTensor[T: SomeFloat]	init_cuda: zeros_like[T: SomeFloat](t: CudaTensor[T]): CudaTensor[T]	
+ones_like	init_cuda.html#ones_like,CudaTensor[T: SomeFloat]	init_cuda: ones_like[T: SomeFloat](t: CudaTensor[T]): CudaTensor[T]	

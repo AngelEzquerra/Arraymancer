@@ -1,0 +1,6 @@
+LASER_MEM_ALIGN	compiler_optim_hints.html#LASER_MEM_ALIGN	compiler_optim_hints: LASER_MEM_ALIGN	
+withCompilerOptimHints	compiler_optim_hints.html#withCompilerOptimHints.t	compiler_optim_hints: withCompilerOptimHints()	
+PrefetchRW	compiler_optim_hints.html#PrefetchRW	compiler_optim_hints: PrefetchRW	
+PrefetchLocality	compiler_optim_hints.html#PrefetchLocality	compiler_optim_hints: PrefetchLocality	
+assume_aligned	compiler_optim_hints.html#assume_aligned.t,ptr.T,staticint	compiler_optim_hints: assume_aligned[T](data: ptr T; alignment: static int = LASER_MEM_ALIGN): ptr T	
+prefetch	compiler_optim_hints.html#prefetch.t,ptr.,staticPrefetchRW,staticPrefetchLocality	compiler_optim_hints: prefetch[T](data: ptr (T or UncheckedArray[T]); rw: static PrefetchRW = Read;\n            locality: static PrefetchLocality = HighTemporalLocality)	

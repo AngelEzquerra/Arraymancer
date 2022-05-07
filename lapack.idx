@@ -1,0 +1,1 @@
+frobenius_inner_prod	lapack.html#frobenius_inner_prod,Tensor[T],Tensor[T]	lapack: frobenius_inner_prod[T](a, b: Tensor[T]): T	

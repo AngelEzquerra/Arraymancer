@@ -1,0 +1,23 @@
+`+.`	operators_broadcasted_cuda.html#+.,CudaTensor[T: SomeFloat],CudaTensor[T: SomeFloat]	operators_broadcasted_cuda: `+.`[T: SomeFloat](a, b: CudaTensor[T]): CudaTensor[T]	
+`-.`	operators_broadcasted_cuda.html#-.,CudaTensor[T: SomeFloat],CudaTensor[T: SomeFloat]	operators_broadcasted_cuda: `-.`[T: SomeFloat](a, b: CudaTensor[T]): CudaTensor[T]	
+`*.`	operators_broadcasted_cuda.html#*.,CudaTensor[T: SomeFloat],CudaTensor[T: SomeFloat]	operators_broadcasted_cuda: `*.`[T: SomeFloat](a, b: CudaTensor[T]): CudaTensor[T]	
+`/.`	operators_broadcasted_cuda.html#/.,CudaTensor[T: SomeFloat],CudaTensor[T: SomeFloat]	operators_broadcasted_cuda: `/.`[T: SomeFloat](a, b: CudaTensor[T]): CudaTensor[T]	
+`+.=`	operators_broadcasted_cuda.html#+.=,CudaTensor[T: SomeFloat],CudaTensor[T: SomeFloat]	operators_broadcasted_cuda: `+.=`[T: SomeFloat](a: var CudaTensor[T]; b: CudaTensor[T])	
+`-.=`	operators_broadcasted_cuda.html#-.=,CudaTensor[T: SomeFloat],CudaTensor[T: SomeFloat]	operators_broadcasted_cuda: `-.=`[T: SomeFloat](a: var CudaTensor[T]; b: CudaTensor[T])	
+`*.=`	operators_broadcasted_cuda.html#*.=,CudaTensor[T: SomeFloat],CudaTensor[T: SomeFloat]	operators_broadcasted_cuda: `*.=`[T: SomeFloat](a: var CudaTensor[T]; b: CudaTensor[T])	
+`/.=`	operators_broadcasted_cuda.html#/.=,CudaTensor[T: SomeFloat],CudaTensor[T: SomeFloat]	operators_broadcasted_cuda: `/.=`[T: SomeFloat](a: var CudaTensor[T]; b: CudaTensor[T])	
+`+.`	operators_broadcasted_cuda.html#+.,CudaTensor[T: SomeFloat],T	operators_broadcasted_cuda: `+.`[T: SomeFloat](t: CudaTensor[T]; val: T): CudaTensor[T]	
+`-.`	operators_broadcasted_cuda.html#-.,CudaTensor[T: SomeFloat],T	operators_broadcasted_cuda: `-.`[T: SomeFloat](t: CudaTensor[T]; val: T): CudaTensor[T]	
+`+.`	operators_broadcasted_cuda.html#+.,T,CudaTensor[T: SomeFloat]	operators_broadcasted_cuda: `+.`[T: SomeFloat](val: T; t: CudaTensor[T]): CudaTensor[T]	
+`-.`	operators_broadcasted_cuda.html#-.,T,CudaTensor[T: SomeFloat]	operators_broadcasted_cuda: `-.`[T: SomeFloat](val: T; t: CudaTensor[T]): CudaTensor[T]	
+`/.`	operators_broadcasted_cuda.html#/.,T,CudaTensor[T: SomeFloat]	operators_broadcasted_cuda: `/.`[T: SomeFloat](val: T; t: CudaTensor[T]): CudaTensor[T]	
+`+.=`	operators_broadcasted_cuda.html#+.=,CudaTensor[T: SomeFloat],T	operators_broadcasted_cuda: `+.=`[T: SomeFloat](t: var CudaTensor[T]; val: T)	
+`-.=`	operators_broadcasted_cuda.html#-.=,CudaTensor[T: SomeFloat],T	operators_broadcasted_cuda: `-.=`[T: SomeFloat](t: var CudaTensor[T]; val: T)	
+`.+`	operators_broadcasted_cuda.html#.+,CudaTensor[T],CudaTensor[T]	operators_broadcasted_cuda: `.+`[T](a, b: CudaTensor[T]): CudaTensor[T]	
+`.-`	operators_broadcasted_cuda.html#.-,CudaTensor[T],CudaTensor[T]	operators_broadcasted_cuda: `.-`[T](a, b: CudaTensor[T]): CudaTensor[T]	
+`.*`	operators_broadcasted_cuda.html#.*,CudaTensor[T],CudaTensor[T]	operators_broadcasted_cuda: `.*`[T](a, b: CudaTensor[T]): CudaTensor[T]	
+`./`	operators_broadcasted_cuda.html#./,CudaTensor[T],CudaTensor[T]	operators_broadcasted_cuda: `./`[T](a, b: CudaTensor[T]): CudaTensor[T]	
+`.=+`	operators_broadcasted_cuda.html#.=+,CudaTensor[T],CudaTensor[T]	operators_broadcasted_cuda: `.=+`[T](a: var CudaTensor[T]; b: CudaTensor[T])	
+`.=-`	operators_broadcasted_cuda.html#.=-,CudaTensor[T],CudaTensor[T]	operators_broadcasted_cuda: `.=-`[T](a: var CudaTensor[T]; b: CudaTensor[T])	
+`.=*`	operators_broadcasted_cuda.html#.=*,CudaTensor[T],CudaTensor[T]	operators_broadcasted_cuda: `.=*`[T](a: var CudaTensor[T]; b: CudaTensor[T])	
+`.=/`	operators_broadcasted_cuda.html#.=/,CudaTensor[T],CudaTensor[T]	operators_broadcasted_cuda: `.=/`[T](a: var CudaTensor[T]; b: CudaTensor[T])	

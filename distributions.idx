@@ -1,0 +1,10 @@
+gauss	distributions.html#gauss,T,T,T	distributions: gauss[T](x, mean, sigma: T; norm = false): float	
+gauss	distributions.html#gauss,Tensor[T],T,T	distributions: gauss[T](x: Tensor[T]; mean, sigma: T; norm = false): Tensor[float]	
+box	distributions.html#box,float	distributions: box(x: float): float	
+triangular	distributions.html#triangular,float	distributions: triangular(x: float): float	
+trigonometric	distributions.html#trigonometric,float	distributions: trigonometric(x: float): float	
+epanechnikov	distributions.html#epanechnikov,float	distributions: epanechnikov(x: float): float	
+box	distributions.html#box.t	distributions: box[T](t`gensym0: Tensor[T]): Tensor[float]	
+triangular	distributions.html#triangular.t	distributions: triangular[T](t`gensym1: Tensor[T]): Tensor[float]	
+trigonometric	distributions.html#trigonometric.t	distributions: trigonometric[T](t`gensym2: Tensor[T]): Tensor[float]	
+epanechnikov	distributions.html#epanechnikov.t	distributions: epanechnikov[T](t`gensym3: Tensor[T]): Tensor[float]	

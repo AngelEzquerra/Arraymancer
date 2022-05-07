@@ -1,0 +1,25 @@
+sum	aggregate.html#sum,Tensor[T]	aggregate: sum[T](t: Tensor[T]): T	
+sum	aggregate.html#sum,Tensor[T],int	aggregate: sum[T](t: Tensor[T]; axis: int): Tensor[T]	
+product	aggregate.html#product,Tensor[T]	aggregate: product[T](t: Tensor[T]): T	
+product	aggregate.html#product,Tensor[T],int	aggregate: product[T](t: Tensor[T]; axis: int): Tensor[T]	
+mean	aggregate.html#mean,Tensor[T: SomeInteger]	aggregate: mean[T: SomeInteger](t: Tensor[T]): T	
+mean	aggregate.html#mean,Tensor[T: SomeInteger],int	aggregate: mean[T: SomeInteger](t: Tensor[T]; axis: int): Tensor[T]	
+mean	aggregate.html#mean,Tensor[T: SomeFloat]	aggregate: mean[T: SomeFloat](t: Tensor[T]): T	
+mean	aggregate.html#mean,Tensor[T: Complex[system.float32] or Complex[system.float64]]	aggregate: mean[T: Complex[float32] or Complex[float64]](t: Tensor[T]): T	
+mean	aggregate.html#mean,Tensor[T: SomeFloat],int	aggregate: mean[T: SomeFloat](t: Tensor[T]; axis: int): Tensor[T]	
+mean	aggregate.html#mean,Tensor[T: Complex[system.float32] or Complex[system.float64]],int	aggregate: mean[T: Complex[float32] or Complex[float64]](t: Tensor[T]; axis: int): Tensor[T]	
+min	aggregate.html#min,Tensor[T]	aggregate: min[T](t: Tensor[T]): T	
+min	aggregate.html#min,Tensor[T],int	aggregate: min[T](t: Tensor[T]; axis: int): Tensor[T]	
+max	aggregate.html#max,Tensor[T]	aggregate: max[T](t: Tensor[T]): T	
+max	aggregate.html#max,Tensor[T],int	aggregate: max[T](t: Tensor[T]; axis: int): Tensor[T]	
+variance	aggregate.html#variance,Tensor[T: SomeFloat]	aggregate: variance[T: SomeFloat](t: Tensor[T]): T	
+variance	aggregate.html#variance,Tensor[T: SomeFloat],int	aggregate: variance[T: SomeFloat](t: Tensor[T]; axis: int): Tensor[T]	
+std	aggregate.html#std,Tensor[T: SomeFloat]	aggregate: std[T: SomeFloat](t: Tensor[T]): T	
+std	aggregate.html#std,Tensor[T: SomeFloat],int	aggregate: std[T: SomeFloat](t: Tensor[T]; axis: int): Tensor[T]	
+argmax_max	aggregate.html#argmax_max,Tensor[T: SomeNumber],int	aggregate: argmax_max[T: SomeNumber](t: Tensor[T]; axis: int): tuple[indices: Tensor[int],\n    maxes: Tensor[T]]	
+argmax	aggregate.html#argmax,Tensor[T],int	aggregate: argmax[T](t: Tensor[T]; axis: int): Tensor[int]	
+percentile	aggregate.html#percentile,Tensor[T],int	aggregate: percentile[T](t: Tensor[T]; p: int; isSorted = false): float	
+iqr	aggregate.html#iqr,Tensor[T]	aggregate: iqr[T](t: Tensor[T]): float	
+cumsum	aggregate.html#cumsum,Tensor[T],int	aggregate: cumsum[T](t: Tensor[T]; axis: int = 0): Tensor[T]	
+cumprod	aggregate.html#cumprod,Tensor[T],int	aggregate: cumprod[T](t: Tensor[T]; axis: int = 0): Tensor[T]	
+nonzero	aggregate.html#nonzero,Tensor[T]	aggregate: nonzero[T](t: Tensor[T]): Tensor[int]	

@@ -1,0 +1,2 @@
+pretty	display_cuda.html#pretty,CudaTensor[T],int	display_cuda: pretty[T](t: CudaTensor[T]; precision = -1): string	
+`$`	display_cuda.html#$,CudaTensor[T]	display_cuda: `$`[T](t: CudaTensor[T]): string	

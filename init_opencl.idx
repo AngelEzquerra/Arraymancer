@@ -1,0 +1,4 @@
+opencl	init_opencl.html#opencl,Tensor[T: SomeFloat]	init_opencl: opencl[T: SomeFloat](t: Tensor[T]): ClTensor[T]	
+cpu	init_opencl.html#cpu,ClTensor[T: SomeFloat]	init_opencl: cpu[T: SomeFloat](t: ClTensor[T]): Tensor[T]	
+zeros_like	init_opencl.html#zeros_like,ClTensor[T: SomeFloat]	init_opencl: zeros_like[T: SomeFloat](t: ClTensor[T]): ClTensor[T]	
+ones_like	init_opencl.html#ones_like,ClTensor[T: SomeFloat]	init_opencl: ones_like[T: SomeFloat](t: ClTensor[T]): ClTensor[T]	

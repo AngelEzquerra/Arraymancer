@@ -1,0 +1,4 @@
+linear	nnp_linear.html#linear,Tensor[T],Tensor[T],Tensor[T],Tensor[T]	nnp_linear: linear[T](input, weight: Tensor[T]; bias: Tensor[T]; output: var Tensor[T])	
+linear	nnp_linear.html#linear,Tensor[T],Tensor[T],Tensor[T]	nnp_linear: linear[T](input, weight: Tensor[T]; output: var Tensor[T])	
+linear_backward	nnp_linear.html#linear_backward,Tensor[T],Tensor[T],Tensor[T],Tensor[T],Tensor[T],Tensor[T]	nnp_linear: linear_backward[T](input, weight, gradOutput: Tensor[T];\n                   gradInput, gradWeight, gradBias: var Tensor[T])	
+linear_backward	nnp_linear.html#linear_backward,Tensor[T],Tensor[T],Tensor[T],Tensor[T],Tensor[T]	nnp_linear: linear_backward[T](input, weight, gradOutput: Tensor[T];\n                   gradInput, gradWeight: var Tensor[T])	

@@ -1,0 +1,2 @@
+round_step_down	align_unroller.html#round_step_down,Natural,staticNatural	align_unroller: round_step_down(x: Natural; step: static Natural): int	
+round_step_up	align_unroller.html#round_step_up,Natural,staticNatural	align_unroller: round_step_up(x: Natural; step: static Natural): int	

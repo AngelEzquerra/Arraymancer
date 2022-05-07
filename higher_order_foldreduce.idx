@@ -1,0 +1,8 @@
+reduce_inline	higher_order_foldreduce.html#reduce_inline.t,Tensor[T],untyped	higher_order_foldreduce: reduce_inline[T](t: Tensor[T]; op: untyped): untyped	
+fold_inline	higher_order_foldreduce.html#fold_inline.t,Tensor[T],untyped,untyped,untyped	higher_order_foldreduce: fold_inline[T](t: Tensor[T]; op_initial, op_middle, op_final: untyped): untyped	
+reduce_axis_inline	higher_order_foldreduce.html#reduce_axis_inline.t,Tensor[T],int,untyped	higher_order_foldreduce: reduce_axis_inline[T](t: Tensor[T]; reduction_axis: int; op: untyped): untyped	
+fold_axis_inline	higher_order_foldreduce.html#fold_axis_inline.t,Tensor[T],typedesc,int,untyped,untyped,untyped	higher_order_foldreduce: fold_axis_inline[T](t: Tensor[T]; accumType: typedesc; fold_axis: int;\n                    op_initial, op_middle, op_final: untyped): untyped	
+fold	higher_order_foldreduce.html#fold,Tensor[U],T,	higher_order_foldreduce: fold[U, T](t: Tensor[U]; start_val: T; f: (T, U) -&gt; T): T	
+fold	higher_order_foldreduce.html#fold,Tensor[U],Tensor[T],,int	higher_order_foldreduce: fold[U, T](t: Tensor[U]; start_val: Tensor[T];\n           f: (Tensor[T], Tensor[U]) -&gt; Tensor[T]; axis: int): Tensor[T]	
+reduce	higher_order_foldreduce.html#reduce,Tensor[T],	higher_order_foldreduce: reduce[T](t: Tensor[T]; f: (T, T) -&gt; T): T	
+reduce	higher_order_foldreduce.html#reduce,Tensor[T],,int	higher_order_foldreduce: reduce[T](t: Tensor[T]; f: (Tensor[T], Tensor[T]) -&gt; Tensor[T]; axis: int): Tensor[\n    T]	

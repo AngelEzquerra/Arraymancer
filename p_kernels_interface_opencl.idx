@@ -1,0 +1,4 @@
+gen_cl_apply3	p_kernels_interface_opencl.html#gen_cl_apply3.t,string,string,string	p_kernels_interface_opencl: gen_cl_apply3(kern_name, ctype, op: string): string	
+genClInfixOp	p_kernels_interface_opencl.html#genClInfixOp.t,typedesc,string,untyped,string,string,static[bool]	p_kernels_interface_opencl: genClInfixOp(T: typedesc; ctype: string; procName: untyped; cName: string;\n             cInfixOp: string; exported: static[bool] = true): untyped	
+gen_cl_apply2	p_kernels_interface_opencl.html#gen_cl_apply2.t,string,string,string	p_kernels_interface_opencl: gen_cl_apply2(kern_name, ctype, op: string): string	
+genClInPlaceOp	p_kernels_interface_opencl.html#genClInPlaceOp.t,typedesc,string,untyped,string,string,static[bool]	p_kernels_interface_opencl: genClInPlaceOp(T: typedesc; ctype: string; procName: untyped; cName: string;\n               cInfixOp: string; exported: static[bool] = true): untyped	

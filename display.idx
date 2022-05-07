@@ -1,0 +1,2 @@
+pretty	display.html#pretty,Tensor[T],int	display: pretty[T](t: Tensor[T]; precision = -1): string	
+`$`	display.html#$,Tensor[T]	display: `$`[T](t: Tensor[T]): string	

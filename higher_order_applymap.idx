@@ -1,0 +1,15 @@
+apply_inline	higher_order_applymap.html#apply_inline.t,Tensor[T: KnownSupportsCopyMem],untyped	higher_order_applymap: apply_inline[T: KnownSupportsCopyMem](t: var Tensor[T]; op: untyped): untyped	
+apply_inline	higher_order_applymap.html#apply_inline.t,Tensor[T: not KnownSupportsCopyMem],untyped	higher_order_applymap: apply_inline[T: not KnownSupportsCopyMem](t: var Tensor[T]; op: untyped): untyped	
+apply2_inline	higher_order_applymap.html#apply2_inline.t,Tensor[T: KnownSupportsCopyMem],Tensor[U],untyped	higher_order_applymap: apply2_inline[T: KnownSupportsCopyMem; U](dest: var Tensor[T]; src: Tensor[U];\n    op: untyped): untyped	
+apply2_inline	higher_order_applymap.html#apply2_inline.t,Tensor[T: not KnownSupportsCopyMem],Tensor[U],untyped	higher_order_applymap: apply2_inline[T: not KnownSupportsCopyMem; U](dest: var Tensor[T];\n    src: Tensor[U]; op: untyped): untyped	
+apply3_inline	higher_order_applymap.html#apply3_inline.t,Tensor[T: KnownSupportsCopyMem],Tensor[U],Tensor[V],untyped	higher_order_applymap: apply3_inline[T: KnownSupportsCopyMem; U, V](dest: var Tensor[T];\n    src1: Tensor[U]; src2: Tensor[V]; op: untyped): untyped	
+map_inline	higher_order_applymap.html#map_inline.t,Tensor[T],untyped	higher_order_applymap: map_inline[T](t: Tensor[T]; op: untyped): untyped	
+map2_inline	higher_order_applymap.html#map2_inline.t,Tensor[T],Tensor[U],untyped	higher_order_applymap: map2_inline[T, U](t1: Tensor[T]; t2: Tensor[U]; op: untyped): untyped	
+map3_inline	higher_order_applymap.html#map3_inline.t,Tensor[T],Tensor[U],Tensor[V],untyped	higher_order_applymap: map3_inline[T, U, V](t1: Tensor[T]; t2: Tensor[U]; t3: Tensor[V]; op: untyped): untyped	
+map	higher_order_applymap.html#map,Tensor[T],	higher_order_applymap: map[T; U](t: Tensor[T]; f: T -&gt; U): Tensor[U]	
+apply	higher_order_applymap.html#apply,Tensor[T],	higher_order_applymap: apply[T](t: var Tensor[T]; f: T -&gt; T)	
+apply	higher_order_applymap.html#apply,Tensor[T: KnownSupportsCopyMem],proc(T)	higher_order_applymap: apply[T: KnownSupportsCopyMem](t: var Tensor[T]; f: proc (x: var T))	
+map2	higher_order_applymap.html#map2,Tensor[T],,Tensor[U]	higher_order_applymap: map2[T, U; V: KnownSupportsCopyMem](t1: Tensor[T]; f: (T, U) -&gt; V; t2: Tensor[U]): Tensor[\n    V]	
+map2	higher_order_applymap.html#map2,Tensor[T],,Tensor[U]_2	higher_order_applymap: map2[T, U; V: not KnownSupportsCopyMem](t1: Tensor[T]; f: (T, U) -&gt; V;\n                                        t2: Tensor[U]): Tensor[V]	
+apply2	higher_order_applymap.html#apply2,Tensor[T: KnownSupportsCopyMem],proc(T,T),Tensor[U]	higher_order_applymap: apply2[T: KnownSupportsCopyMem; U](a: var Tensor[T]; f: proc (x: var T; y: T);\n                                   b: Tensor[U])	
+apply2	higher_order_applymap.html#apply2,Tensor[T: not KnownSupportsCopyMem],proc(T,T),Tensor[U]	higher_order_applymap: apply2[T: not KnownSupportsCopyMem; U](a: var Tensor[T];\n                                       f: proc (x: var T; y: T); b: Tensor[U])	

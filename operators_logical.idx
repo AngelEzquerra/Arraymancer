@@ -1,0 +1,4 @@
+`and`	operators_logical.html#and,Tensor[bool],Tensor[bool]	operators_logical: `and`(a, b: Tensor[bool]): Tensor[bool]	
+`or`	operators_logical.html#or,Tensor[bool],Tensor[bool]	operators_logical: `or`(a, b: Tensor[bool]): Tensor[bool]	
+`xor`	operators_logical.html#xor,Tensor[bool],Tensor[bool]	operators_logical: `xor`(a, b: Tensor[bool]): Tensor[bool]	
+`not`	operators_logical.html#not,Tensor[bool]	operators_logical: `not`(a: Tensor[bool]): Tensor[bool]	

@@ -1,0 +1,7 @@
+`[]`	gates_shapeshifting_views.html#[].t,Variable[TT],varargs[untyped]	gates_shapeshifting_views: `[]`[TT](v: Variable[TT]; args: varargs[untyped]): Variable[TT]	
+ReshapeGate	gates_shapeshifting_views.html#ReshapeGate	gates_shapeshifting_views: ReshapeGate	
+reshape	gates_shapeshifting_views.html#reshape,Variable[TT],varargs[int]	gates_shapeshifting_views: reshape[TT](a: Variable[TT]; shape: varargs[int]): Variable[TT]	
+reshape	gates_shapeshifting_views.html#reshape,Variable[TT],Metadata	gates_shapeshifting_views: reshape[TT](a: Variable[TT]; shape: Metadata): Variable[TT]	
+flatten	gates_shapeshifting_views.html#flatten,Variable[TT]	gates_shapeshifting_views: flatten[TT](a: Variable[TT]): Variable[TT]	
+squeeze	gates_shapeshifting_views.html#squeeze,,Natural	gates_shapeshifting_views: squeeze[TT](v`gensym0: Variable[TT]; axis`gensym0: Natural): Variable[TT]	
+unsqueeze	gates_shapeshifting_views.html#unsqueeze,,Natural	gates_shapeshifting_views: unsqueeze[TT](v`gensym1: Variable[TT]; axis`gensym1: Natural): Variable[TT]	

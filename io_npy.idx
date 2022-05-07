@@ -1,0 +1,2 @@
+read_npy	io_npy.html#read_npy,string	io_npy: read_npy[T: SomeNumber](npyPath: string): Tensor[T]	
+write_npy	io_npy.html#write_npy,Tensor[T: SomeNumber],string	io_npy: write_npy[T: SomeNumber](t: Tensor[T]; npyPath: string)	

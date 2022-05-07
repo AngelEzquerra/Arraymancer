@@ -1,0 +1,5 @@
+Flatten	flatten.html#Flatten	flatten: Flatten	
+init	flatten.html#init,Context[Tensor[T]],typedesc[Flatten[T]],seq[int]	flatten: init[T](ctx: Context[Tensor[T]]; layerType: typedesc[Flatten[T]];\n        inShape: seq[int]): Flatten[T]	
+forward	flatten.html#forward,Flatten[T],Variable[Tensor[T]]	flatten: forward[T](self: Flatten[T]; input: Variable[Tensor[T]]): Variable[Tensor[T]]	
+outShape	flatten.html#outShape,Flatten[T]	flatten: outShape[T](self: Flatten[T]): seq[int]	
+inShape	flatten.html#inShape,Flatten[T]	flatten: inShape[T](self: Flatten[T]): seq[int]	

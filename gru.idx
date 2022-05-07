@@ -1,0 +1,5 @@
+GRUGate	gru.html#GRUGate	gru: GRUGate	
+gru	gru.html#gru,Variable[TT],Variable[TT],Variable[TT],Variable[TT],Variable[TT],Variable[TT],Variable[TT]	gru: gru[TT](input, hidden0: Variable[TT]; W3s0, W3sN, U3s: Variable[TT];\n        bW3s, bU3s: Variable[TT]): tuple[output, hiddenN: Variable[TT]]	
+GRULayer	gru.html#GRULayer	gru: GRULayer	
+init	gru.html#init,Context[Tensor[T]],typedesc[GRULayer[T]],int,int,int	gru: init[T](ctx: Context[Tensor[T]]; layerType: typedesc[GRULayer[T]];\n        numInputFeatures, hiddenSize, layers: int): GRULayer[T]	
+forward	gru.html#forward,GRULayer[T],Variable,Variable	gru: forward[T](self: GRULayer[T]; input, hidden0: Variable): tuple[\n    output, hiddenN: Variable]	

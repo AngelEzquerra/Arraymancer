@@ -1,0 +1,2 @@
+read_csv	io_csv.html#read_csv,string,char,char	io_csv: read_csv[T: SomeNumber | bool | string](csvPath: string; skipHeader = false;\n                                        separator = &apos;,&apos;; quote = &apos;\&quot;&apos;): Tensor[T]	
+to_csv	io_csv.html#to_csv,Tensor[T],string,char	io_csv: to_csv[T](tensor: Tensor[T]; csvPath: string; separator = &apos;,&apos;)	

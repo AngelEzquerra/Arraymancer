@@ -1,0 +1,12 @@
+Euclidean	distances.html#Euclidean	distances: Euclidean	
+Manhattan	distances.html#Manhattan	distances: Manhattan	
+Minkowski	distances.html#Minkowski	distances: Minkowski	
+Jaccard	distances.html#Jaccard	distances: Jaccard	
+CustomMetric	distances.html#CustomMetric	distances: CustomMetric	
+AnyMetric	distances.html#AnyMetric	distances: AnyMetric	
+distance	distances.html#distance,typedesc[Manhattan],Tensor[float],Tensor[float]	distances: distance(metric: typedesc[Manhattan]; v, w: Tensor[float]): float	
+distance	distances.html#distance,typedesc[Minkowski],Tensor[float],Tensor[float],float,staticbool	distances: distance(metric: typedesc[Minkowski]; v, w: Tensor[float]; p = 2.0;\n         squared: static bool = false): float	
+distance	distances.html#distance,typedesc[Euclidean],Tensor[float],Tensor[float],staticbool	distances: distance(metric: typedesc[Euclidean]; v, w: Tensor[float];\n         squared: static bool = false): float	
+distance	distances.html#distance,typedesc[Jaccard],Tensor[float],Tensor[float]	distances: distance(metric: typedesc[Jaccard]; v, w: Tensor[float]): float	
+pairwiseDistances	distances.html#pairwiseDistances,typedesc[AnyMetric],Tensor[float],Tensor[float],float,staticbool	distances: pairwiseDistances(metric: typedesc[AnyMetric]; x, y: Tensor[float]; p = 2.0;\n                  squared: static bool = false): Tensor[float]	
+distanceMatrix	distances.html#distanceMatrix,typedesc[AnyMetric],Tensor[float],Tensor[float],float,staticbool	distances: distanceMatrix(metric: typedesc[AnyMetric]; x, y: Tensor[float]; p = 2.0;\n               squared: static bool = false): Tensor[float]	

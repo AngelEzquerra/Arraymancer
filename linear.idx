@@ -1,0 +1,7 @@
+LinearGate	linear.html#LinearGate	linear: LinearGate	
+linear	linear.html#linear,Variable[TT],Variable[TT],Variable[TT]	linear: linear[TT](input, weight: Variable[TT]; bias: Variable[TT] = nil): Variable[TT]	
+Linear	linear.html#Linear	linear: Linear	
+init	linear.html#init,Context[Tensor[T]],typedesc[Linear[T]],int,int	linear: init[T](ctx: Context[Tensor[T]]; layerType: typedesc[Linear[T]];\n        numInput, numOutput: int): Linear[T]	
+forward	linear.html#forward,Linear[T],Variable[Tensor[T]]	linear: forward[T](self: Linear[T]; input: Variable[Tensor[T]]): Variable[Tensor[T]]	
+outShape	linear.html#outShape,Linear[T]	linear: outShape[T](self: Linear[T]): seq[int]	
+inShape	linear.html#inShape,Linear[T]	linear: inShape[T](self: Linear[T]): seq[int]	

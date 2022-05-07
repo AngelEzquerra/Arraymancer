@@ -1,0 +1,2 @@
+hilbert	special_matrices.html#hilbert,int,typedesc[SomeFloat]	special_matrices: hilbert(n: int; T: typedesc[SomeFloat]): Tensor[T]	
+vandermonde	special_matrices.html#vandermonde,Tensor[T],int	special_matrices: vandermonde[T](x: Tensor[T]; order: int): Tensor[float]	

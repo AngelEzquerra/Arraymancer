@@ -1,0 +1,8 @@
+toRawSeq	exporting.html#toRawSeq,Tensor[T]	exporting: toRawSeq[T](t: Tensor[T]): seq[T]	
+export_tensor	exporting.html#export_tensor,Tensor[T]	exporting: export_tensor[T](t: Tensor[T]): tuple[shape: seq[int], strides: seq[int],\n                                      data: seq[T]]	
+toFlatSeq	exporting.html#toFlatSeq,Tensor[T]	exporting: toFlatSeq[T](t: Tensor[T]): seq[T]	
+toSeq1D	exporting.html#toSeq1D,Tensor[T]	exporting: toSeq1D[T](t: Tensor[T]): seq[T]	
+toSeq2D	exporting.html#toSeq2D,Tensor[T]	exporting: toSeq2D[T](t: Tensor[T]): seq[seq[T]]	
+toSeq3D	exporting.html#toSeq3D,Tensor[T]	exporting: toSeq3D[T](t: Tensor[T]): seq[seq[seq[T]]]	
+toSeq4D	exporting.html#toSeq4D,Tensor[T]	exporting: toSeq4D[T](t: Tensor[T]): seq[seq[seq[seq[T]]]]	
+toSeq5D	exporting.html#toSeq5D,Tensor[T]	exporting: toSeq5D[T](t: Tensor[T]): seq[seq[seq[seq[seq[T]]]]]	

@@ -1,0 +1,5 @@
+initForEach	foreach_common.html#initForEach,NimNode,NimNode,NimNode,NimNode,NimNode,NimNode,NimNode	foreach_common: initForEach(params: NimNode; values, aliases, raw_ptrs: var NimNode;\n            aliases_stmt, raw_ptrs_stmt: var NimNode; test_shapes: var NimNode)	
+stridedVarsSetup	foreach_common.html#stridedVarsSetup.t	foreach_common: stridedVarsSetup(): untyped	
+stridedChunkOffset	foreach_common.html#stridedChunkOffset.t	foreach_common: stridedChunkOffset(): untyped	
+stridedBodyTemplate	foreach_common.html#stridedBodyTemplate.t	foreach_common: stridedBodyTemplate(): untyped	
+Parse the input	foreach_common.html#parse-the-input	 Parse the input	

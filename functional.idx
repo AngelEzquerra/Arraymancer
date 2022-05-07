@@ -1,0 +1,1 @@
+concatMap	functional.html#concatMap,seq[T],proc(T)	functional: concatMap[T](s: seq[T]; f: proc (ss: T): string): string	

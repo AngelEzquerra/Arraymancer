@@ -1,0 +1,20 @@
+CudaStorage	data_structure.html#CudaStorage	data_structure: CudaStorage	
+CudaTensor	data_structure.html#CudaTensor	data_structure: CudaTensor	
+ClStorage	data_structure.html#ClStorage	data_structure: ClStorage	
+ClTensor	data_structure.html#ClTensor	data_structure: ClTensor	
+AnyTensor	data_structure.html#AnyTensor	data_structure: AnyTensor	
+data=	data_structure.html#data=,Tensor[T],seq[T]	data_structure: data=[T](t: var Tensor[T]; s: seq[T])	
+rank	data_structure.html#rank	data_structure: rank[T](t: CudaTensor[T] or ClTensor[T]): range[0 .. LASER_MAXRANK]	
+size	data_structure.html#size	data_structure: size[T](t: CudaTensor[T] or ClTensor[T]): Natural	
+shape_to_strides	data_structure.html#shape_to_strides,Metadata,OrderType,Metadata	data_structure: shape_to_strides(shape: Metadata; layout: OrderType = rowMajor;\n                 result: var Metadata)	
+is_C_contiguous	data_structure.html#is_C_contiguous	data_structure: is_C_contiguous(t: CudaTensor or ClTensor): bool	
+is_F_contiguous	data_structure.html#is_F_contiguous,AnyTensor	data_structure: is_F_contiguous(t: AnyTensor): bool	
+isContiguous	data_structure.html#isContiguous,AnyTensor	data_structure: isContiguous(t: AnyTensor): bool	
+get_data_ptr	data_structure.html#get_data_ptr,Tensor[T: KnownSupportsCopyMem]	data_structure: get_data_ptr[T: KnownSupportsCopyMem](t: Tensor[T]): ptr T	
+get_data_ptr	data_structure.html#get_data_ptr,AnyTensor[T: not KnownSupportsCopyMem]	data_structure: get_data_ptr[T: not KnownSupportsCopyMem](t: AnyTensor[T]): ptr T	
+get_offset_ptr	data_structure.html#get_offset_ptr,Tensor[T: KnownSupportsCopyMem]	data_structure: get_offset_ptr[T: KnownSupportsCopyMem](t: Tensor[T]): ptr T	
+get_offset_ptr	data_structure.html#get_offset_ptr,AnyTensor[T: not KnownSupportsCopyMem]	data_structure: get_offset_ptr[T: not KnownSupportsCopyMem](t: AnyTensor[T]): ptr T	
+get_data_ptr	data_structure.html#get_data_ptr	data_structure: get_data_ptr[T](t: CudaTensor[T] or ClTensor[T]): ptr T	
+get_offset_ptr	data_structure.html#get_offset_ptr	data_structure: get_offset_ptr[T](t: CudaTensor[T] or ClTensor[T]): ptr T	
+dataArray	data_structure.html#dataArray,Tensor[T: KnownSupportsCopyMem]	data_structure: dataArray[T: KnownSupportsCopyMem](t: Tensor[T]): ptr UncheckedArray[T]	
+dataArray	data_structure.html#dataArray,Tensor[T: not KnownSupportsCopyMem]	data_structure: dataArray[T: not KnownSupportsCopyMem](t: Tensor[T]): ptr UncheckedArray[T]	

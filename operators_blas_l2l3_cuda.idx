@@ -1,0 +1,1 @@
+`*`	operators_blas_l2l3_cuda.html#*,CudaTensor[T: SomeFloat],CudaTensor[T: SomeFloat]	operators_blas_l2l3_cuda: `*`[T: SomeFloat](a, b: CudaTensor[T]): CudaTensor[T]	

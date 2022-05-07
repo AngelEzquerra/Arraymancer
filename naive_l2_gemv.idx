@@ -1,0 +1,1 @@
+naive_gemv_fallback	naive_l2_gemv.html#naive_gemv_fallback,T,Tensor[T: SomeInteger],Tensor[T: SomeInteger],T,Tensor[T: SomeInteger]	naive_l2_gemv: naive_gemv_fallback[T: SomeInteger](alpha: T; A: Tensor[T]; x: Tensor[T];\n                                    beta: T; y: var Tensor[T])	

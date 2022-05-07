@@ -1,0 +1,7 @@
+Conv2DGate	conv2D.html#Conv2DGate	conv2D: Conv2DGate	
+conv2d	conv2D.html#conv2d,Variable[TT],Variable[TT],Variable[TT],Size2D,Size2D	conv2D: conv2d[TT](input, weight: Variable[TT]; bias: Variable[TT] = nil;\n           padding: Size2D = (0, 0); stride: Size2D = (1, 1)): Variable[TT]	
+Conv2D	conv2D.html#Conv2D	conv2D: Conv2D	
+init	conv2D.html#init,Context[Tensor[T]],typedesc[Conv2D[T]],seq[int],int,Size2D,Size2D,Size2D	conv2D: init[T](ctx: Context[Tensor[T]]; layerType: typedesc[Conv2D[T]];\n        inShape: seq[int]; outChannels: int; kernelSize: Size2D;\n        padding: Size2D = (0, 0); stride: Size2D = (1, 1)): Conv2D[T]	
+forward	conv2D.html#forward,Conv2D[T],Variable[Tensor[T]]	conv2D: forward[T](self: Conv2D[T]; input: Variable[Tensor[T]]): Variable[Tensor[T]]	
+outShape	conv2D.html#outShape,Conv2D[T]	conv2D: outShape[T](self: Conv2D[T]): seq[int]	
+inShape	conv2D.html#inShape,Conv2D[T]	conv2D: inShape[T](self: Conv2D[T]): seq[int]	

@@ -1,0 +1,2 @@
+TanhActivation	tanh.html#TanhActivation	tanh: TanhActivation	
+tanh	tanh.html#tanh,Variable[TT]	tanh: tanh[TT](a: Variable[TT]): Variable[TT]	

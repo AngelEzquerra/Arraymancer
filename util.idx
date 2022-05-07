@@ -1,0 +1,2 @@
+get_cache_dir	util.html#get_cache_dir	util: get_cache_dir(): string	
+create_cache_dirs_if_necessary	util.html#create_cache_dirs_if_necessary	util: create_cache_dirs_if_necessary()	

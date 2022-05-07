@@ -1,0 +1,5 @@
+Im2ColGEMM	nnp_convolution.html#Im2ColGEMM	Conv2DAlgorithm.Im2ColGEMM	
+NNPackAuto	nnp_convolution.html#NNPackAuto	Conv2DAlgorithm.NNPackAuto	
+Conv2DAlgorithm	nnp_convolution.html#Conv2DAlgorithm	nnp_convolution: Conv2DAlgorithm	
+conv2d	nnp_convolution.html#conv2d,Tensor[T],Tensor[T],Tensor[T],Size2D,Size2D	nnp_convolution: conv2d[T](input, weight, bias: Tensor[T]; padding: Size2D = (0, 0);\n          stride: Size2D = (1, 1); algorithm = Conv2DAlgorithm.Im2ColGEMM): Tensor[\n    T]	
+conv2d_backward	nnp_convolution.html#conv2d_backward,Tensor[T],Tensor[T],Tensor[T],Size2D,Size2D,Tensor[T],Tensor[T],Tensor[T],Tensor[T]	nnp_convolution: conv2d_backward[T](input, weight, bias: Tensor[T]; padding: Size2D;\n                   stride: Size2D; grad_output: Tensor[T];\n                   grad_input, grad_weight, grad_bias: var Tensor[T];\n                   algorithm = Conv2DAlgorithm.Im2ColGEMM)	

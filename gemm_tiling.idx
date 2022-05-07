@@ -1,0 +1,22 @@
+MicroKernel	gemm_tiling.html#MicroKernel	gemm_tiling: MicroKernel	
+x86_Generic	gemm_tiling.html#x86_Generic	CPUFeatureX86.x86_Generic	
+x86_SSE	gemm_tiling.html#x86_SSE	CPUFeatureX86.x86_SSE	
+x86_SSE2	gemm_tiling.html#x86_SSE2	CPUFeatureX86.x86_SSE2	
+x86_SSE4_1	gemm_tiling.html#x86_SSE4_1	CPUFeatureX86.x86_SSE4_1	
+x86_AVX	gemm_tiling.html#x86_AVX	CPUFeatureX86.x86_AVX	
+x86_AVX_FMA	gemm_tiling.html#x86_AVX_FMA	CPUFeatureX86.x86_AVX_FMA	
+x86_AVX2	gemm_tiling.html#x86_AVX2	CPUFeatureX86.x86_AVX2	
+x86_AVX512	gemm_tiling.html#x86_AVX512	CPUFeatureX86.x86_AVX512	
+CPUFeatureX86	gemm_tiling.html#CPUFeatureX86	gemm_tiling: CPUFeatureX86	
+x86_ukernel	gemm_tiling.html#x86_ukernel,CPUFeatureX86,typedesc,bool	gemm_tiling: x86_ukernel(cpu: CPUFeatureX86; T: typedesc; c_unit_stride: bool): MicroKernel	
+extract_mr	gemm_tiling.html#extract_mr.m,staticMicroKernel	gemm_tiling: extract_mr(ukernel: static MicroKernel): untyped	
+extract_nr	gemm_tiling.html#extract_nr.m,staticMicroKernel	gemm_tiling: extract_nr(ukernel: static MicroKernel): untyped	
+extract_cpu_simd	gemm_tiling.html#extract_cpu_simd.m,staticMicroKernel	gemm_tiling: extract_cpu_simd(ukernel: static MicroKernel): untyped	
+extract_nb_scalars	gemm_tiling.html#extract_nb_scalars.m,staticMicroKernel	gemm_tiling: extract_nb_scalars(ukernel: static MicroKernel): untyped	
+extract_nb_vecs_nr	gemm_tiling.html#extract_nb_vecs_nr.m,staticMicroKernel	gemm_tiling: extract_nb_vecs_nr(ukernel: static MicroKernel): untyped	
+extract_c_unit_stride	gemm_tiling.html#extract_c_unit_stride.m,staticMicroKernel	gemm_tiling: extract_c_unit_stride(ukernel: static MicroKernel): untyped	
+extract_pt	gemm_tiling.html#extract_pt.m,staticMicroKernel	gemm_tiling: extract_pt(ukernel: static MicroKernel): untyped	
+Tiles	gemm_tiling.html#Tiles	gemm_tiling: Tiles	
+get_num_tiles	gemm_tiling.html#get_num_tiles,int,int	gemm_tiling: get_num_tiles(dim_size, tile_size: int): int	
+partitionMNK	gemm_tiling.html#partitionMNK,staticMicroKernel,typedesc,Natural,Natural,Natural	gemm_tiling: partitionMNK(ukernel: static MicroKernel; T: typedesc; M, N, K: Natural): tuple[\n    mc, nc, kc: int]	
+newTiles	gemm_tiling.html#newTiles,staticMicroKernel,typedesc,Natural,Natural,Natural	gemm_tiling: newTiles(ukernel: static MicroKernel; T: typedesc; M, N, K: Natural): Tiles[T]	

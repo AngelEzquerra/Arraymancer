@@ -1,0 +1,3 @@
+cudnnHandle0	cudnn.html#cudnnHandle0	cudnn: cudnnHandle0	
+asCudnnType	cudnn.html#asCudnnType.t,typedesc[T]	cudnn: asCudnnType[T: SomeFloat](typ: typedesc[T]): cudnnDataType_t	
+newCudnn4DTensorDesc	cudnn.html#newCudnn4DTensorDesc,CudaTensor[T: SomeFloat]	cudnn: newCudnn4DTensorDesc[T: SomeFloat](t: CudaTensor[T]): cudnnTensorDescriptor_t	

@@ -1,0 +1,2 @@
+pack_A_mc_kc	gemm_packing.html#pack_A_mc_kc,ptr.UncheckedArray[T],int,int,MatrixView[T]	gemm_packing: pack_A_mc_kc[T; ukernel: static MicroKernel](packedA: ptr UncheckedArray[T];\n    mc, kc: int; A: MatrixView[T])	
+pack_B_kc_nc	gemm_packing.html#pack_B_kc_nc,ptr.UncheckedArray[T],int,int,MatrixView[T]	gemm_packing: pack_B_kc_nc[T; ukernel: static MicroKernel](packedB: ptr UncheckedArray[T];\n    kc, nc: int; B: MatrixView[T])	

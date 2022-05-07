@@ -1,0 +1,30 @@
+LASER_MAXRANK	dynamic_stack_arrays.html#LASER_MAXRANK	dynamic_stack_arrays: LASER_MAXRANK	
+DynamicStackArray	dynamic_stack_arrays.html#DynamicStackArray	dynamic_stack_arrays: DynamicStackArray	
+copyFrom	dynamic_stack_arrays.html#copyFrom,DynamicStackArray,varargs[int]	dynamic_stack_arrays: copyFrom(a: var DynamicStackArray; s: varargs[int])	
+copyFrom	dynamic_stack_arrays.html#copyFrom,DynamicStackArray,DynamicStackArray	dynamic_stack_arrays: copyFrom(a: var DynamicStackArray; s: DynamicStackArray)	
+setLen	dynamic_stack_arrays.html#setLen,DynamicStackArray,int	dynamic_stack_arrays: setLen(a: var DynamicStackArray; len: int)	
+low	dynamic_stack_arrays.html#low,DynamicStackArray	dynamic_stack_arrays: low(a: DynamicStackArray): int	
+high	dynamic_stack_arrays.html#high,DynamicStackArray	dynamic_stack_arrays: high(a: DynamicStackArray): int	
+`[]`	dynamic_stack_arrays.html#[],DynamicStackArray[T],Index	dynamic_stack_arrays: `[]`[T](a: DynamicStackArray[T]; idx: Index): T	
+`[]`	dynamic_stack_arrays.html#[],DynamicStackArray[T],Index_2	dynamic_stack_arrays: `[]`[T](a: var DynamicStackArray[T]; idx: Index): var T	
+`[]=`	dynamic_stack_arrays.html#[]=,DynamicStackArray[T],Index,T	dynamic_stack_arrays: `[]=`[T](a: var DynamicStackArray[T]; idx: Index; v: T)	
+`[]`	dynamic_stack_arrays.html#[],DynamicStackArray[T],Slice[int]	dynamic_stack_arrays: `[]`[T](a: DynamicStackArray[T]; slice: Slice[int]): DynamicStackArray[T]	
+items	dynamic_stack_arrays.html#items.i,DynamicStackArray[T]	dynamic_stack_arrays: items[T](a: DynamicStackArray[T]): T	
+mitems	dynamic_stack_arrays.html#mitems.i,DynamicStackArray[T]	dynamic_stack_arrays: mitems[T](a: var DynamicStackArray[T]): var T	
+pairs	dynamic_stack_arrays.html#pairs.i,DynamicStackArray[T]	dynamic_stack_arrays: pairs[T](a: DynamicStackArray[T]): (int, T)	
+mpairs	dynamic_stack_arrays.html#mpairs.i,DynamicStackArray[T]	dynamic_stack_arrays: mpairs[T](a: var DynamicStackArray[T]): (int, var T)	
+`@`	dynamic_stack_arrays.html#@,DynamicStackArray[T]	dynamic_stack_arrays: `@`[T](a: DynamicStackArray[T]): seq[T]	
+`$`	dynamic_stack_arrays.html#$,DynamicStackArray	dynamic_stack_arrays: `$`(a: DynamicStackArray): string	
+product	dynamic_stack_arrays.html#product,DynamicStackArray[T: SomeNumber]	dynamic_stack_arrays: product[T: SomeNumber](a: DynamicStackArray[T]): T	
+insert	dynamic_stack_arrays.html#insert,DynamicStackArray[T],T,int	dynamic_stack_arrays: insert[T](a: var DynamicStackArray[T]; value: T; index: int = 0)	
+delete	dynamic_stack_arrays.html#delete,DynamicStackArray,int	dynamic_stack_arrays: delete(a: var DynamicStackArray; index: int)	
+add	dynamic_stack_arrays.html#add,DynamicStackArray[T],T	dynamic_stack_arrays: add[T](a: var DynamicStackArray[T]; value: T)	
+`&amp;`	dynamic_stack_arrays.html#&,DynamicStackArray[T],T	dynamic_stack_arrays: `&amp;`[T](a: DynamicStackArray[T]; value: T): DynamicStackArray[T]	
+`&amp;`	dynamic_stack_arrays.html#&,DynamicStackArray,DynamicStackArray	dynamic_stack_arrays: `&amp;`(a, b: DynamicStackArray): DynamicStackArray	
+reversed	dynamic_stack_arrays.html#reversed,DynamicStackArray	dynamic_stack_arrays: reversed(a: DynamicStackArray): DynamicStackArray	
+reversed	dynamic_stack_arrays.html#reversed,DynamicStackArray,DynamicStackArray	dynamic_stack_arrays: reversed(a: DynamicStackArray; result: var DynamicStackArray)	
+`==`	dynamic_stack_arrays.html#==,DynamicStackArray[T],openArray[T]	dynamic_stack_arrays: `==`[T](a: DynamicStackArray[T]; s: openArray[T]): bool	
+`==`	dynamic_stack_arrays.html#==,DynamicStackArray,DynamicStackArray	dynamic_stack_arrays: `==`(a, s: DynamicStackArray): bool	
+zip	dynamic_stack_arrays.html#zip.i,DynamicStackArray[T],DynamicStackArray[U]	dynamic_stack_arrays: zip[T, U](a: DynamicStackArray[T]; b: DynamicStackArray[U]): (T, T)	
+concat	dynamic_stack_arrays.html#concat,varargs[DynamicStackArray[T]]	dynamic_stack_arrays: concat[T](dsas: varargs[DynamicStackArray[T]]): DynamicStackArray[T]	
+max	dynamic_stack_arrays.html#max,DynamicStackArray[T]	dynamic_stack_arrays: max[T](a: DynamicStackArray[T]): T	

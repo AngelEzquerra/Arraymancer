@@ -1,0 +1,5 @@
+MAXRANK	global_config.html#MAXRANK	global_config: MAXRANK	
+CUDA_HOF_TPB	global_config.html#CUDA_HOF_TPB	global_config: CUDA_HOF_TPB	
+CUDA_HOF_BPG	global_config.html#CUDA_HOF_BPG	global_config: CUDA_HOF_BPG	
+OMP_FOR_THRESHOLD	global_config.html#OMP_FOR_THRESHOLD	global_config: OMP_FOR_THRESHOLD	
+OMP_MAX_REDUCE_BLOCKS	global_config.html#OMP_MAX_REDUCE_BLOCKS	global_config: OMP_MAX_REDUCE_BLOCKS	

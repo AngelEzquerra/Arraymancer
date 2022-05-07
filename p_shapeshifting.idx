@@ -1,0 +1,11 @@
+contiguousImpl	p_shapeshifting.html#contiguousImpl,Tensor[T],OrderType,Tensor[T]	p_shapeshifting: contiguousImpl[T](t: Tensor[T]; layout: OrderType; result: var Tensor[T])	
+reshape_with_copy	p_shapeshifting.html#reshape_with_copy,Tensor[T],,Tensor[T]	p_shapeshifting: reshape_with_copy[T](t: Tensor[T]; new_shape: varargs[int] | Metadata;\n                     result: var Tensor[T])	
+reshape_no_copy	p_shapeshifting.html#reshape_no_copy,AnyTensor,,AnyTensor,OrderType	p_shapeshifting: reshape_no_copy(t: AnyTensor; new_shape: varargs[int] | Metadata;\n                result: var AnyTensor; layout: OrderType)	
+reshapeImpl	p_shapeshifting.html#reshapeImpl,AnyTensor,,AnyTensor	p_shapeshifting: reshapeImpl(t: AnyTensor; new_shape: varargs[int] | Metadata;\n            result: var AnyTensor)	
+broadcastImpl	p_shapeshifting.html#broadcastImpl,AnyTensor,	p_shapeshifting: broadcastImpl(t: var AnyTensor; shape: varargs[int] | Metadata)	
+broadcast2Impl	p_shapeshifting.html#broadcast2Impl,AnyTensor[T],AnyTensor[T],tuple[AnyTensor[T],AnyTensor[T]]	p_shapeshifting: broadcast2Impl[T](a, b: AnyTensor[T]; result: var tuple[a, b: AnyTensor[T]])	
+exch_dim	p_shapeshifting.html#exch_dim,Tensor[T],int,int	p_shapeshifting: exch_dim[T](t: Tensor[T]; dim1, dim2: int): Tensor[T]	
+permuteImpl	p_shapeshifting.html#permuteImpl,Tensor[T],varargs[int]	p_shapeshifting: permuteImpl[T](result: var Tensor[T]; dims: varargs[int])	
+squeezeImpl	p_shapeshifting.html#squeezeImpl,AnyTensor	p_shapeshifting: squeezeImpl(t: var AnyTensor)	
+squeezeImpl	p_shapeshifting.html#squeezeImpl,AnyTensor,int	p_shapeshifting: squeezeImpl(t: var AnyTensor; axis: int)	
+unsqueezeImpl	p_shapeshifting.html#unsqueezeImpl,AnyTensor,int	p_shapeshifting: unsqueezeImpl(t: var AnyTensor; axis: int)	

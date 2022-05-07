@@ -1,0 +1,7 @@
+EmbeddingGate	embedding.html#EmbeddingGate	embedding: EmbeddingGate	
+embedding	embedding.html#embedding,Tensor[Idx: VocabIdx],Variable[TT],Idx,static[bool]	embedding: embedding[TT; Idx: VocabIdx](input_vocab_id: Tensor[Idx]; weight: Variable[TT];\n                             padding_idx: Idx = -1;\n                             scale_grad_by_freq: static[bool] = false): Variable[\n    TT]	
+Embedding	embedding.html#Embedding	embedding: Embedding	
+init	embedding.html#init,Context[Tensor[T]],typedesc[Embedding[T]],int,int,VocabIdx	embedding: init[T](ctx: Context[Tensor[T]]; layerType: typedesc[Embedding[T]];\n        vocabSize, embedSize: int; paddingIdx: VocabIdx = -1): Embedding[T]	
+forward	embedding.html#forward,Embedding[T],Tensor[Idx: VocabIdx]	embedding: forward[T; Idx: VocabIdx](self: Embedding[T]; input: Tensor[Idx]): Variable[\n    AnyTensor[T]]	
+outShape	embedding.html#outShape,Embedding[T]	embedding: outShape[T](self: Embedding[T]): seq[int]	
+inShape	embedding.html#inShape,Embedding[T]	embedding: inShape[T](self: Embedding[T]): seq[int]	

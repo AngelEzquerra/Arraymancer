@@ -1,0 +1,4 @@
+triu	triangular.html#triu,Tensor[T],staticint	triangular: triu[T](a: Tensor[T]; k: static int = 0): Tensor[T]	
+tril	triangular.html#tril,Tensor[T],staticint	triangular: tril[T](a: Tensor[T]; k: static int = 0): Tensor[T]	
+tril_unit_diag	triangular.html#tril_unit_diag,Tensor[T]	triangular: tril_unit_diag[T](a: Tensor[T]): Tensor[T]	
+tril_unit_diag_mut	triangular.html#tril_unit_diag_mut,Tensor[T]	triangular: tril_unit_diag_mut[T](a: var Tensor[T])	

@@ -1,0 +1,12 @@
+Sgd	optimizers.html#Sgd	optimizers: Sgd	
+newSGD	optimizers.html#newSGD,varargs[Variable[Tensor[T]]],T	optimizers: newSGD[T](params: varargs[Variable[Tensor[T]]]; learning_rate: T): Sgd[Tensor[T]]	
+update	optimizers.html#update,Sgd	optimizers: update(self: Sgd)	
+optimizerSGD	optimizers.html#optimizerSGD,M,T	optimizers: optimizerSGD[M, T](model: M; learning_rate: T): Sgd[Tensor[T]]	
+SgdMomentum	optimizers.html#SgdMomentum	optimizers: SgdMomentum	
+update	optimizers.html#update,SgdMomentum	optimizers: update(self: var SgdMomentum)	
+optimizerSGDMomentum	optimizers.html#optimizerSGDMomentum,M,T,typeof(T(0.0)),typeof(T(0.0))	optimizers: optimizerSGDMomentum[M, T](model: M; learning_rate: T; momentum = T(0.0);\n                           decay = T(0.0); nesterov = false): SgdMomentum[\n    Tensor[T]]	
+Adam	optimizers.html#Adam	optimizers: Adam	
+update	optimizers.html#update,Adam	optimizers: update(self: var Adam)	
+optimizerAdam	optimizers.html#optimizerAdam,M,T,typeof(T(0.9)),typeof(T(0.999)),typeof(T(1e-8))	optimizers: optimizerAdam[M, T](model: M; learning_rate: T = T(0.001); beta1 = T(0.9);\n                    beta2 = T(0.999); eps = T(1e-8)): Adam[Tensor[T]]	
+Optimizer	optimizers.html#Optimizer	optimizers: Optimizer	
+zeroGrads	optimizers.html#zeroGrads,Optimizer	optimizers: zeroGrads(o: Optimizer)	

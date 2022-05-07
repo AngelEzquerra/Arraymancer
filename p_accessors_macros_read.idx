@@ -1,0 +1,15 @@
+slicerImpl	p_accessors_macros_read.html#slicerImpl.t,,ArrayOfSlices	p_accessors_macros_read: slicerImpl[T](result: AnyTensor[T] | var AnyTensor[T]; slices: ArrayOfSlices): untyped	
+slicer	p_accessors_macros_read.html#slicer,AnyTensor[T],varargs[SteppedSlice]	p_accessors_macros_read: slicer[T](t: AnyTensor[T]; slices: varargs[SteppedSlice]): AnyTensor[T]	
+slicer	p_accessors_macros_read.html#slicer,AnyTensor[T],varargs[SteppedSlice],Ellipsis	p_accessors_macros_read: slicer[T](t: AnyTensor[T]; slices: varargs[SteppedSlice]; ellipsis: Ellipsis): AnyTensor[\n    T]	
+slicer	p_accessors_macros_read.html#slicer,AnyTensor[T],Ellipsis,varargs[SteppedSlice]	p_accessors_macros_read: slicer[T](t: AnyTensor[T]; ellipsis: Ellipsis; slices: varargs[SteppedSlice]): AnyTensor[\n    T]	
+slicer	p_accessors_macros_read.html#slicer,AnyTensor[T],varargs[SteppedSlice],Ellipsis,varargs[SteppedSlice]	p_accessors_macros_read: slicer[T](t: AnyTensor[T]; slices1: varargs[SteppedSlice]; ellipsis: Ellipsis;\n          slices2: varargs[SteppedSlice]): AnyTensor[T]	
+slicer	p_accessors_macros_read.html#slicer,Tensor[T],ArrayOfSlices	p_accessors_macros_read: slicer[T](t: Tensor[T]; slices: ArrayOfSlices): Tensor[T]	
+FancyNone	p_accessors_macros_read.html#FancyNone	FancySelectorKind.FancyNone	
+FancyIndex	p_accessors_macros_read.html#FancyIndex	FancySelectorKind.FancyIndex	
+FancyMaskFull	p_accessors_macros_read.html#FancyMaskFull	FancySelectorKind.FancyMaskFull	
+FancyMaskAxis	p_accessors_macros_read.html#FancyMaskAxis	FancySelectorKind.FancyMaskAxis	
+FancyUnknownFull	p_accessors_macros_read.html#FancyUnknownFull	FancySelectorKind.FancyUnknownFull	
+FancyUnknownAxis	p_accessors_macros_read.html#FancyUnknownAxis	FancySelectorKind.FancyUnknownAxis	
+FancySelectorKind	p_accessors_macros_read.html#FancySelectorKind	p_accessors_macros_read: FancySelectorKind	
+getFancySelector	p_accessors_macros_read.html#getFancySelector,NimNode,int,NimNode	p_accessors_macros_read: getFancySelector(ast: NimNode; axis: var int; selector: var NimNode): FancySelectorKind	
+slice_typed_dispatch	p_accessors_macros_read.html#slice_typed_dispatch.m,typed,varargs[typed]	p_accessors_macros_read: slice_typed_dispatch(t: typed; args: varargs[typed]): untyped	

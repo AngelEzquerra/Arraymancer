@@ -1,0 +1,13 @@
+readInt32BE	io_stream_readers.html#readInt32BE,Stream	io_stream_readers: readInt32BE(stream: Stream): int32	
+readInt64BE	io_stream_readers.html#readInt64BE,Stream	io_stream_readers: readInt64BE(stream: Stream): int64	
+readUInt32BE	io_stream_readers.html#readUInt32BE,Stream	io_stream_readers: readUInt32BE(stream: Stream): uint32	
+readUInt64BE	io_stream_readers.html#readUInt64BE,Stream	io_stream_readers: readUInt64BE(stream: Stream): uint64	
+readFloat32BE	io_stream_readers.html#readFloat32BE,Stream	io_stream_readers: readFloat32BE(stream: Stream): float32	
+readFloat64BE	io_stream_readers.html#readFloat64BE,Stream	io_stream_readers: readFloat64BE(stream: Stream): float64	
+readInt32LE	io_stream_readers.html#readInt32LE,Stream	io_stream_readers: readInt32LE(stream: Stream): int32	
+readInt64LE	io_stream_readers.html#readInt64LE,Stream	io_stream_readers: readInt64LE(stream: Stream): int64	
+readUInt16LE	io_stream_readers.html#readUInt16LE,Stream	io_stream_readers: readUInt16LE(stream: Stream): uint16	
+readUInt32LE	io_stream_readers.html#readUInt32LE,Stream	io_stream_readers: readUInt32LE(stream: Stream): uint32	
+readUInt64LE	io_stream_readers.html#readUInt64LE,Stream	io_stream_readers: readUInt64LE(stream: Stream): uint64	
+readFloat32LE	io_stream_readers.html#readFloat32LE,Stream	io_stream_readers: readFloat32LE(stream: Stream): float32	
+readFloat64LE	io_stream_readers.html#readFloat64LE,Stream	io_stream_readers: readFloat64LE(stream: Stream): float64	

@@ -1,0 +1,1 @@
+at	syntactic_sugar.html#at.t,Tensor[T],varargs[untyped]	syntactic_sugar: at[T](t: Tensor[T]; args: varargs[untyped]): untyped	

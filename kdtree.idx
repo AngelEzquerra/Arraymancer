@@ -1,0 +1,11 @@
+tnLeaf	kdtree.html#tnLeaf	TreeNodeKind.tnLeaf	
+tnInner	kdtree.html#tnInner	TreeNodeKind.tnInner	
+TreeNodeKind	kdtree.html#TreeNodeKind	kdtree: TreeNodeKind	
+Node	kdtree.html#Node	kdtree: Node	
+KDTree	kdtree.html#KDTree	kdtree: KDTree	
+TensorCompare	kdtree.html#TensorCompare	kdtree: TensorCompare	
+`==`	kdtree.html#==,TensorCompare[T],TensorCompare[T]	kdtree: `==`[T](s1C, s2C: TensorCompare[T]): bool	
+`&lt;`	kdtree.html#<,TensorCompare[T],TensorCompare[T]	kdtree: `&lt;`[T](s1C, s2C: TensorCompare[T]): bool	
+kdTree	kdtree.html#kdTree,Tensor[T],int,staticbool	kdtree: kdTree[T](data: Tensor[T]; leafSize = 16; copyData = true;\n          balancedTree: static bool = true): KDTree[T]	
+query	kdtree.html#query,KDTree[T],Tensor[T],int,float,typedesc[AnyMetric],float	kdtree: query[T](tree: KDTree[T]; x: Tensor[T]; k = 1; eps = 0.0;\n         metric: typedesc[AnyMetric] = Euclidean; p = 2.0;\n         distanceUpperBound = Inf): tuple[dist: Tensor[T], idx: Tensor[int]]	
+query_ball_point	kdtree.html#query_ball_point,KDTree[T],Tensor[T],float,float,typedesc[AnyMetric],float	kdtree: query_ball_point[T](tree: KDTree[T]; x: Tensor[T]; radius: float; eps = 0.0;\n                    metric: typedesc[AnyMetric] = Euclidean; p = 2.0): tuple[\n    dist: Tensor[T], idx: Tensor[int]]	

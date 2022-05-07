@@ -1,0 +1,1 @@
+covariance_matrix	stats.html#covariance_matrix,Tensor[T: SomeFloat],Tensor[T: SomeFloat]	stats: covariance_matrix[T: SomeFloat](x, y: Tensor[T]): Tensor[T]	

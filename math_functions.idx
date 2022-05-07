@@ -1,0 +1,23 @@
+elwise_mul	math_functions.html#elwise_mul,Tensor[T],Tensor[T]	math_functions: elwise_mul[T](a, b: Tensor[T]): Tensor[T]	
+melwise_mul	math_functions.html#melwise_mul,Tensor[T],Tensor[T]	math_functions: melwise_mul[T](a: var Tensor[T]; b: Tensor[T])	
+elwise_div	math_functions.html#elwise_div,Tensor[T: SomeInteger],Tensor[T: SomeInteger]	math_functions: elwise_div[T: SomeInteger](a, b: Tensor[T]): Tensor[T]	
+elwise_div	math_functions.html#elwise_div,Tensor[T: SomeFloat],Tensor[T: SomeFloat]	math_functions: elwise_div[T: SomeFloat](a, b: Tensor[T]): Tensor[T]	
+melwise_div	math_functions.html#melwise_div,Tensor[T: SomeInteger],Tensor[T: SomeInteger]	math_functions: melwise_div[T: SomeInteger](a: var Tensor[T]; b: Tensor[T])	
+melwise_div	math_functions.html#melwise_div,Tensor[T: SomeFloat],Tensor[T: SomeFloat]	math_functions: melwise_div[T: SomeFloat](a: var Tensor[T]; b: Tensor[T])	
+reciprocal	math_functions.html#reciprocal,Tensor[T: SomeFloat]	math_functions: reciprocal[T: SomeFloat](t: Tensor[T]): Tensor[T]	
+mreciprocal	math_functions.html#mreciprocal,Tensor[T: SomeFloat]	math_functions: mreciprocal[T: SomeFloat](t: var Tensor[T])	
+reciprocal	math_functions.html#reciprocal,Tensor[T: Complex[system.float32] or Complex[system.float64]]	math_functions: reciprocal[T: Complex[float32] or Complex[float64]](t: Tensor[T]): Tensor[T]	
+mreciprocal	math_functions.html#mreciprocal,Tensor[T: Complex[system.float32] or Complex[system.float64]]	math_functions: mreciprocal[T: Complex[float32] or Complex[float64]](t: var Tensor[T])	
+negate	math_functions.html#negate,Tensor[T: int or int8 or int16 or int32 or int64 or float or float32 or float64]	math_functions: negate[T: SomeSignedInt | SomeFloat](t: Tensor[T]): Tensor[T]	
+mnegate	math_functions.html#mnegate,Tensor[T: int or int8 or int16 or int32 or int64 or float or float32 or float64]	math_functions: mnegate[T: SomeSignedInt | SomeFloat](t: var Tensor[T])	
+`-`	math_functions.html#-,Tensor[T: SomeNumber]	math_functions: `-`[T: SomeNumber](t: Tensor[T]): Tensor[T]	
+abs	math_functions.html#abs,Tensor[T: SomeNumber]	math_functions: abs[T: SomeNumber](t: Tensor[T]): Tensor[T]	
+abs	math_functions.html#abs,Tensor[Complex[float64]]	math_functions: abs(t: Tensor[Complex[float64]]): Tensor[float64]	
+abs	math_functions.html#abs,Tensor[Complex[float32]]	math_functions: abs(t: Tensor[Complex[float32]]): Tensor[float32]	
+mabs	math_functions.html#mabs,Tensor[T]	math_functions: mabs[T](t: var Tensor[T])	
+clamp	math_functions.html#clamp,Tensor[T],T,T	math_functions: clamp[T](t: Tensor[T]; min, max: T): Tensor[T]	
+mclamp	math_functions.html#mclamp,Tensor[T],T,T	math_functions: mclamp[T](t: var Tensor[T]; min, max: T)	
+square	math_functions.html#square,T	math_functions: square[T](x: T): T	
+square	math_functions.html#square	math_functions: square[T](t`gensym90: Tensor[T]): Tensor[T]	
+square	math_functions.html#square,T_2	math_functions: square[T](x: T): T	
+square	math_functions.html#square_2	math_functions: square[T](t`gensym90: Tensor[T]): Tensor[T]	

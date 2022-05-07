@@ -1,0 +1,2 @@
+SoftmaxActivation	softmax.html#SoftmaxActivation	softmax: SoftmaxActivation	
+softmax	softmax.html#softmax,Variable[TT]	softmax: softmax[TT](a: Variable[TT]): Variable[TT]	

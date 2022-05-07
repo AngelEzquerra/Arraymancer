@@ -1,0 +1,10 @@
+hasType	ast_utils.html#hasType,NimNode,static[string]	ast_utils: hasType(x: NimNode; t: static[string]): bool	
+isInt	ast_utils.html#isInt,NimNode	ast_utils: isInt(x: NimNode): bool	
+isBool	ast_utils.html#isBool,NimNode	ast_utils: isBool(x: NimNode): bool	
+isOpenarray	ast_utils.html#isOpenarray,NimNode	ast_utils: isOpenarray(x: NimNode): bool	
+isAllInt	ast_utils.html#isAllInt,NimNode	ast_utils: isAllInt(slice_args: NimNode): bool	
+pop	ast_utils.html#pop,NimNode	ast_utils: pop(tree: var NimNode): NimNode	
+getSubType	ast_utils.html#getSubType.m,typedesc	ast_utils: getSubType(TT: typedesc): untyped	
+letsGoDeeper	ast_utils.html#letsGoDeeper.t	ast_utils: letsGoDeeper()	
+replaceSymsByIdents	ast_utils.html#replaceSymsByIdents,NimNode	ast_utils: replaceSymsByIdents(ast: NimNode): NimNode	
+replaceNodes	ast_utils.html#replaceNodes,NimNode,NimNode,NimNode	ast_utils: replaceNodes(ast: NimNode; replacements: NimNode; to_replace: NimNode): NimNode	

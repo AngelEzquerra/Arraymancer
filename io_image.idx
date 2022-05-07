@@ -1,0 +1,6 @@
+read_image	io_image.html#read_image,string	io_image: read_image(filepath: string): Tensor[uint8]	
+read_image	io_image.html#read_image,seq[byte]	io_image: read_image(buffer: seq[byte]): Tensor[uint8]	
+write_png	io_image.html#write_png,Tensor[uint8],string	io_image: write_png(img: Tensor[uint8]; filepath: string)	
+write_bmp	io_image.html#write_bmp,Tensor[uint8],string	io_image: write_bmp(img: Tensor[uint8]; filepath: string)	
+write_tga	io_image.html#write_tga,Tensor[uint8],string	io_image: write_tga(img: Tensor[uint8]; filepath: string)	
+write_jpg	io_image.html#write_jpg,Tensor[uint8],string,int	io_image: write_jpg(img: Tensor[uint8]; filepath: string; quality = 100)	

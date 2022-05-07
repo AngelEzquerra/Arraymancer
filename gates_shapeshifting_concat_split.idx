@@ -1,0 +1,3 @@
+stack	gates_shapeshifting_concat_split.html#stack,varargs[Variable[TT]],int	gates_shapeshifting_concat_split: stack[TT](variables: varargs[Variable[TT]]; axis = 0): Variable[TT]	
+ChunkSplitGate	gates_shapeshifting_concat_split.html#ChunkSplitGate	gates_shapeshifting_concat_split: ChunkSplitGate	
+chunk	gates_shapeshifting_concat_split.html#chunk,Variable[TT],Positive,Natural	gates_shapeshifting_concat_split: chunk[TT](v: Variable[TT]; nb_chunks: Positive; axis: Natural): seq[Variable[TT]]	

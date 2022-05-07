@@ -1,0 +1,2 @@
+ReluActivation	relu.html#ReluActivation	relu: ReluActivation	
+relu	relu.html#relu,Variable[TT]	relu: relu[TT](a: Variable[TT]): Variable[TT]	

@@ -1,0 +1,7 @@
+toClpointer	opencl_backend.html#toClpointer	opencl_backend: toClpointer[T](p: ptr T | ptr UncheckedArray[T]): Pmem	
+toClpointer	opencl_backend.html#toClpointer,ClStorage[T]	opencl_backend: toClpointer[T](p: ClStorage[T]): Pmem	
+toClpointer	opencl_backend.html#toClpointer,ClTensor[T]	opencl_backend: toClpointer[T](p: ClTensor[T]): Pmem	
+clMalloc	opencl_backend.html#clMalloc,Natural	opencl_backend: clMalloc[T](size: Natural): ptr UncheckedArray[T]	
+deallocCl	opencl_backend.html#deallocCl,ref.	opencl_backend: deallocCl[T](p: ref [ptr UncheckedArray[T]])	
+newClStorage	opencl_backend.html#newClStorage,int	opencl_backend: newClStorage[T: SomeFloat](length: int): ClStorage[T]	
+layoutOnDevice	opencl_backend.html#layoutOnDevice,ClTensor[T: SomeFloat]	opencl_backend: layoutOnDevice[T: SomeFloat](t: ClTensor[T]): ClTensorLayout[T]	

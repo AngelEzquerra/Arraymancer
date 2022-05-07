@@ -1,0 +1,2 @@
+sigmoid_cross_entropy	nnp_sigmoid_cross_entropy.html#sigmoid_cross_entropy,Tensor[T],Tensor[T]	nnp_sigmoid_cross_entropy: sigmoid_cross_entropy[T](input, target: Tensor[T]): T	
+sigmoid_cross_entropy_backward	nnp_sigmoid_cross_entropy.html#sigmoid_cross_entropy_backward,,Tensor[T],Tensor[T]	nnp_sigmoid_cross_entropy: sigmoid_cross_entropy_backward[T](gradient: Tensor[T] or T;\n                                  cached_tensor: Tensor[T]; target: Tensor[T]): Tensor[\n    T]	

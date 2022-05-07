@@ -1,0 +1,3 @@
+sort	algorithms.html#sort,Tensor[T]	algorithms: sort[T](t: var Tensor[T]; order = SortOrder.Ascending)	
+sorted	algorithms.html#sorted,Tensor[T]	algorithms: sorted[T](t: Tensor[T]; order = SortOrder.Ascending): Tensor[T]	
+argsort	algorithms.html#argsort,Tensor[T]	algorithms: argsort[T](t: Tensor[T]; order = SortOrder.Ascending; toCopy = false): Tensor[\n    int]	
